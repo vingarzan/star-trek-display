@@ -461,5 +461,79 @@
       "changes_outside_title_recess_mm3": 1.335160609983177e-05,
       "unfilled_recess_mm3": 6.791675417616716e-06
     }
+  },
+  "galaxy_holder": {
+    "plate_thickness_mm": 4.7,
+    "clip_gap_mm": 4.9,
+    "source_base_outline_thickness_mm": 4,
+    "source_disc_diameter_mm": 173.2112198,
+    "clips": [
+      {
+        "angle_degrees": -90,
+        "plaque_edge_radius_mm": 86.59736633300781,
+        "seat_radius_mm": 86.74736633300782
+      },
+      {
+        "angle_degrees": -150,
+        "plaque_edge_radius_mm": 86.59828155057193,
+        "seat_radius_mm": 86.74828155057193
+      },
+      {
+        "angle_degrees": -30,
+        "plaque_edge_radius_mm": 86.60112919061919,
+        "seat_radius_mm": 86.7511291906192
+      }
+    ],
+    "retainer_screw": "M2 x 10 mm, 1.6 mm printed pilot",
+    "checks": {
+      "holder_plaque_overlap_mm3": 0.0,
+      "keeper_plaque_overlap_mm3": 0.0,
+      "lift_0.0mm_overlap_mm3": 0.0,
+      "lift_0.5mm_overlap_mm3": 0.0,
+      "lift_1.0mm_overlap_mm3": 0.0,
+      "lift_1.5mm_overlap_mm3": 0.0,
+      "lift_2.0mm_overlap_mm3": 0.0,
+      "lift_2.5mm_overlap_mm3": 0.0,
+      "lift_3.0mm_overlap_mm3": 0.0,
+      "lift_3.5mm_overlap_mm3": 0.0,
+      "lift_4.0mm_overlap_mm3": 0.0,
+      "lift_4.5mm_overlap_mm3": 0.0,
+      "lift_5.0mm_overlap_mm3": 0.0,
+      "lift_5.5mm_overlap_mm3": 0.0,
+      "lift_6.0mm_overlap_mm3": 0.0,
+      "lift_6.5mm_overlap_mm3": 0.0,
+      "lift_7.0mm_overlap_mm3": 0.0,
+      "lift_7.5mm_overlap_mm3": 0.0,
+      "lift_8.0mm_overlap_mm3": 0.0,
+      "lift_8.5mm_overlap_mm3": 0.0,
+      "lift_9.0mm_overlap_mm3": 0.0,
+      "lift_9.5mm_overlap_mm3": 0.0,
+      "lift_10.0mm_overlap_mm3": 0.0,
+      "approach_0mm_overlap_mm3": 0.0,
+      "approach_1mm_overlap_mm3": 0.0,
+      "approach_4mm_overlap_mm3": 0.0,
+      "approach_10mm_overlap_mm3": 0.0,
+      "approach_20mm_overlap_mm3": 0.0,
+      "hex_plaque_galaxy_4.7mm": {
+        "dimensions_mm": [
+          210.0,
+          185.86534881591797,
+          15.300000190734863
+        ],
+        "watertight": true,
+        "components": 1,
+        "export_reload_verified": true
+      },
+      "plaque_retainer_galaxy_4.7mm": {
+        "dimensions_mm": [
+          10.928198337554932,
+          8.0,
+          7.300000190734863
+        ],
+        "watertight": true,
+        "components": 1,
+        "export_reload_verified": true
+      }
+    }
   }
 }
