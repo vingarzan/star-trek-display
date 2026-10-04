@@ -1,4 +1,4 @@
-STAR TREK WALL DISPLAY — REVISION 38
+STAR TREK WALL DISPLAY — REVISION 39
 Units mm. Print at 100% scale. Physically untested prototypes.
 
 INTEGRATED SHIP MOUNT
@@ -69,7 +69,7 @@ GALAXY PLAQUE — SMALLER OUTLINE
 Use hex_plaque_galaxy_4.7mm.stl and plaque_retainer_galaxy_4.7mm.stl for the supplied Galaxy stand. The older hex_plaque_snug_4.7mm.stl uses the larger Sovereign outline; it is a separate option.
 The Galaxy disc is approximately 173.21 mm across. Its single protruding point goes up and its two lower points go down. The holder has three fixed lower clips: bottom centre, lower left and lower right. The removable upper-right retainer meets the disc edge. Clips and retainer remain within the outer hexagon boundary.
 The supplied STL has a 4 mm base layer; the holder uses the user's measured 4.7 mm printed thickness, with a 4.9 mm retaining gap. The source base outline is used without scaling. Collision checks use that outline extruded to 4.7 mm, excluding the upright arm and raised decoration.
-Mount the empty holder to the wall first. With the retainer removed, place the plaque 10 mm above its final position, bring its back against the frame, then slide it down 10 mm into the three clips. Fit the upper-right keeper using one M2 x 10 mm screw into the 1.6 mm printed pilot. This provides about 2.7 mm screw engagement. Do not overtighten the small printed pilot. Removal reverses those steps.
+Mount the empty holder to the wall first. With the retainer removed, place the plaque 10 mm above its final position, bring its back against the frame, then slide it down 10 mm into the three clips. Fit the upper-right keeper using one M3 x 12 mm screw into the 2.6 mm printed pilot. This provides about 4.7 mm screw engagement. Do not overtighten the small printed pilot. Removal reverses those steps.
 Print the holder flat as supplied. The retainer is supplied cap-down for printing. The existing fit_test_plate_gap_4.7mm.stl checks the same 4.9 mm gap. Printed fit, pilot-hole retention and strength remain physically untested.
 
 LIGHTER SINGLE-SOCKET ARM
@@ -80,3 +80,6 @@ Solid-model volume is approximately 133.36 cm3 versus 242.00 cm3, a 44.9% reduct
 CURRENT ARM HEIGHT AND BASE
 The arm cross-section height (along wall Y, not its reach away from the wall) is reduced. The socket housing is now 20 x 20 mm externally. Its rear face is Y=-6, its mouth remains Y=14, and the socket floor stays Y=1.8. The central hexagon is centred and measures 38 x 32.909 x 8 mm, supporting the complete rounded joint footprint. The arm's tip remains 147 mm from the wall; peg axis remains 138 mm from the wall and 130 mm beyond the frame front.
 The central hexagon was reduced from 52 to 38 mm wide in revision 38, saving another 2.52 cm3 of solid-model volume. Both peg inserts pass seating and withdrawal checks; a 3.39 mm clearance probe passes the nominal 3.4 mm faceted retaining-pin bore. The thinner section and smaller base have not been physically load-tested.
+
+GALAXY RETAINER HOLE UPDATE
+Holder pilot diameter is now 2.6 mm and the separate retainer clearance hole is 3.4 mm, matching the larger plaque holder. The retainer boss is enlarged to 5 mm diameter. To clear the disc and stay within the outer hexagon, its position shifts 16 mm along the upper-right border toward the top and 0.45 mm inward. Reprint both the Galaxy hexagon and its retainer. The 4.9 mm plate gap and three lower clips are unchanged.

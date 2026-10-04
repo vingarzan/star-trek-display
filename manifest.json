@@ -1,8 +1,8 @@
 {
-  "version": "v38",
-  "title": "Compact 38 mm central hexagon for the light arm",
+  "version": "v39",
+  "title": "Galaxy retainer holes matched to larger plaque holder",
   "files": {
-    "outputs/Assembly_notes.txt": "50b2b5e2ef12af5b53484152084b95c839ba2a1a6eb0064db9f66924f38206bc",
+    "outputs/Assembly_notes.txt": "6a4142762a8b2c2508d37b166f248f035e9fec3956ad82623f37ed5409d181f1",
     "outputs/corner_braced_arm_preview.png": "411cbd843a6dac1742e1cc30965ab3ce7bd883226479251f3eecff14f99ac355",
     "outputs/empty_hex_preview.png": "72cad53b746afad095d1f85098271e5b5f0baa70292105c5a9dd1304f942cda0",
     "outputs/filled_title_notch_preview.png": "f1b6d57acc385a53ad38cd154d99f02549d94f04094bec3bbd70ec2672f29269",
@@ -20,11 +20,11 @@
     "outputs/fit_test_plate_gap_4.7mm.stl": "5bb22506f38baf856b09a8ffd9a410b065ae79ac710688a35a0c83448422b8a1",
     "outputs/fit_test_plate_gap_5.7mm.stl": "dda10d6bafe1d9d0cc5ab50414590d9a2613eb48a3ffe16f84063c5e51d7c793",
     "outputs/fit_test_socket.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
-    "outputs/galaxy_holder_preview.png": "bb5b8592ee5a634246d81447b753f5cc1f2bfb12dffe86cfc7a7f0cdabba1f39",
-    "outputs/geometry_checks.json": "e459a84ae8ab6c48aed11074b30f5c01df502e38beeec7dea6a0bb8b4ac4cc80",
+    "outputs/galaxy_holder_preview.png": "7fca346a40bf6788c8494837e829a6d347bd5eba536154c6ed41db0b0711da50",
+    "outputs/geometry_checks.json": "263fa392d08335ea04829115347175ec03ee8296c25e735e61fe14bcf80184f8",
     "outputs/hex_empty_original_size.stl": "5ff48d05b8aa9bf49b46d5ef1bca7313a300520656d0cfb1cbb21916d5b77a2d",
     "outputs/hex_open_original_size.stl": "7511543714909d4e04e7a10f7386ea80afa49f1654cef154b4be33c33f683e86",
-    "outputs/hex_plaque_galaxy_4.7mm.stl": "3852532fc76c8787a23f7c7c9eea0a98a54f17fb650831d9b6b20fa41c2f57ba",
+    "outputs/hex_plaque_galaxy_4.7mm.stl": "10e60d00798998207360916f1428027cb3998cd920e9603846e98d5da0282340",
     "outputs/hex_plaque_snug_4.7mm.stl": "4519b002efac701887fc0a67f060231915f22227d9c94b2306586120166023f4",
     "outputs/hex_plaque_snug_5.7mm.stl": "5ceb8fef11c09c8b7f60f7f8b31f741bc58d8ba6f6ccce97dc2d2b6b6367b726",
     "outputs/hex_ship_corner_braced_arm.stl": "eefb7b9a32138d6f9b9d3ca9a3f5d4293a1981eae96e7473d82e5320c754e810",
@@ -36,7 +36,7 @@
     "outputs/peg_insert_8mm.stl": "bfc3386f88a0837e91b90533baec4e597b8eaf29f4a001c89644eea1bb9bb6e2",
     "outputs/plaque_latch_snug_4.7mm.stl": "1f9b16d15115a459f47f4f8070637b9fb306be132fe645ce8c2dfd9e2065ecd4",
     "outputs/plaque_latch_snug_5.7mm.stl": "4807e9df37e7440b0553df445a8ff07433f7be095753a311dc09eb8d7b1b1649",
-    "outputs/plaque_retainer_galaxy_4.7mm.stl": "89d7d31a5fdb5ae4d7e195e0ae9d5836e8cced33a9863ddd6d3805ab98614985",
+    "outputs/plaque_retainer_galaxy_4.7mm.stl": "25cb875912d3fa4eff083623d1e10df871af4d8d130e26b3366e0798bbf4cd7d",
     "outputs/snug_stems_preview.png": "b1aa1acd820975e89c2882354ed251e27c9d19a1893dd6d305a349bd93a81a97"
   },
   "scripts": [

@@ -484,7 +484,9 @@
         "seat_radius_mm": 86.7511291906192
       }
     ],
-    "retainer_screw": "M2 x 10 mm, 1.6 mm printed pilot",
+    "retainer_screw": "M3 x 12 mm, 2.6 mm printed pilot and 3.4 mm retainer clearance",
+    "holder_pilot_diameter_mm": 2.6,
+    "retainer_hole_diameter_mm": 3.4,
     "checks": {
       "holder_plaque_overlap_mm3": 0.0,
       "keeper_plaque_overlap_mm3": 0.0,
@@ -526,8 +528,8 @@
       },
       "plaque_retainer_galaxy_4.7mm": {
         "dimensions_mm": [
-          10.928198337554932,
-          8.0,
+          11.9282066822052,
+          9.000000238418579,
           7.300000190734863
         ],
         "watertight": true,
