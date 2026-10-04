@@ -56,3 +56,5 @@ v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks b
 | [v38](https://github.com/vingarzan/star-trek-display/tree/v38) | Reduce light arm central hexagon from 52 to 38 mm wide, retaining full joint support | [files](https://github.com/vingarzan/star-trek-display/tree/v38/outputs/) |
 
 | [v39](https://github.com/vingarzan/star-trek-display/tree/v39) | Match Galaxy retainer holes to larger holder: 2.6 mm pilot and 3.4 mm clearance; widen and reposition retainer | [files](https://github.com/vingarzan/star-trek-display/tree/v39/outputs/) |
+
+| [v40](https://github.com/vingarzan/star-trek-display/tree/v40) | Set Galaxy pilot to 2.35 mm and retainer clearance to 3.1 mm for user-selected intermediate fit | [files](https://github.com/vingarzan/star-trek-display/tree/v40/outputs/) |

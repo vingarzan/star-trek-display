@@ -28,12 +28,12 @@ for angle in [-90,-150,-30]:
  lip=box([90.5-(edge-2),8,2.4],[(90.5+edge-2)/2,0,14.1])
  clip=inter(local(union([floor,lip]),angle),outline)
  parts.append(clip);seats.append(dict(angle_degrees=angle,plaque_edge_radius_mm=edge,seat_radius_mm=seat))
-# M3 keeper shifted along the upper-right border to clear the disc with a 5 mm boss.
+# M2.5 keeper shifted along the upper-right border to clear the disc with a 5 mm boss.
 angle=30;radius=88.3;a=np.deg2rad(angle);screw=np.array([radius*np.cos(a)-16*np.sin(a),radius*np.sin(a)+16*np.cos(a)])
-pilot=cyl(1.3,7,[*screw,4.5])
+pilot=cyl(1.175,7,[*screw,4.5])
 holder=diff(union(parts),pilot)
 keeper_local=union([cyl(2.5,4.9,[radius,0,10.45]),cyl(2.5,2.4,[radius,0,14.1]),box([8,5,2.4],[radius-4,0,14.1]),cyl(2.5,2.4,[radius-8,0,14.1])])
-keeper_local=diff(keeper_local,cyl(1.7,12,[radius,0,11]));keeper_local.apply_translation([0,16,0]);keeper=local(keeper_local,angle)
+keeper_local=diff(keeper_local,cyl(1.55,12,[radius,0,11]));keeper_local.apply_translation([0,16,0]);keeper=local(keeper_local,angle)
 checks={}
 for name,m in [('holder',holder),('keeper',keeper)]:
  checks[name+'_plaque_overlap_mm3']=float(abs(inter(m,plaque).volume));assert checks[name+'_plaque_overlap_mm3']<.01
@@ -50,7 +50,7 @@ models['plaque_retainer_galaxy_4.7mm']=kp
 for name,m in models.items():
  p=out/(name+'.stl');m.export(p);m=t.load(p);f=m.faces;m.update_faces((f[:,0]!=f[:,1])&(f[:,1]!=f[:,2])&(f[:,0]!=f[:,2]));m.update_faces(m.unique_faces());m.remove_unreferenced_vertices();m.export(p);m=t.load(p);assert m.is_volume and len(m.split())==1
  checks[name]=dict(dimensions_mm=m.extents.tolist(),watertight=True,components=1,export_reload_verified=True)
-report=json.loads((out/'geometry_checks.json').read_text());report['galaxy_holder']=dict(plate_thickness_mm=4.7,clip_gap_mm=4.9,source_base_outline_thickness_mm=4,source_disc_diameter_mm=173.2112198,clips=seats,retainer_screw='M3 x 12 mm, 2.6 mm printed pilot and 3.4 mm retainer clearance',holder_pilot_diameter_mm=2.6,retainer_hole_diameter_mm=3.4,checks=checks)
+report=json.loads((out/'geometry_checks.json').read_text());report['galaxy_holder']=dict(plate_thickness_mm=4.7,clip_gap_mm=4.9,source_base_outline_thickness_mm=4,source_disc_diameter_mm=173.2112198,clips=seats,retainer_screw='M2.5 x 12 mm, 2.35 mm printed pilot and 3.1 mm retainer clearance',holder_pilot_diameter_mm=2.35,retainer_hole_diameter_mm=3.1,checks=checks)
 (out/'geometry_checks.json').write_text(json.dumps(report,indent=2)+'\n')
 fig=plt.figure(figsize=(16,7),facecolor='#f3f5f7')
 draw(fig.add_subplot(131,projection='3d'),[holder,keeper],['#688ca5','#d49b48'],'Galaxy holder and retainer',[(-110,110),(-120,130),(0,18)],90,-90)
