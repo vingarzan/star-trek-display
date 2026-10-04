@@ -1,0 +1,28 @@
+{
+  "version": "v14",
+  "title": "Compact flat arm base",
+  "imported_from_saved_artifacts": true,
+  "files": {
+    "outputs/v14/Assembly_notes.txt": "121e48ca77875073c7266e26815300ee6bbbd8c18f9ec5796550b572a11b5064",
+    "outputs/v14/compact_base_preview.png": "4a0554cf7edf06cc23b7771ef28cd89026f02d50e701941e8581c9fe5bb40a1b",
+    "outputs/v14/geometry_checks.json": "e6c51d76c7c1cdfbb0b8c32d8d2d475cfb9fda5d964427e71f6e043732253b85",
+    "outputs/v14/hex_open_original_size.stl": "abb26a855aa343f0d2a15ad5c788a8fc15a3d1f42084b949bdf77e8d5755136c",
+    "outputs/v14/hex_plaque_flush_clips.stl": "e5b56a9b64bdb1d17283ab646dcbca17dd4817203ce81133c7d7276b0f7836c0",
+    "outputs/v14/hex_ship_integrated_rounded_arm.stl": "2ba96c7a742ed6857efaf72c4ba8bc2d763a4179bb9eb11732ad10115587a8fe",
+    "outputs/v14/original_joint_test_bottom.stl": "4410f20b223ff928c7db404bf4006f9c857ecbc8288782a6c109306cf213d468",
+    "outputs/v14/original_joint_test_top.stl": "7afb984749baf341646b0df2faeef294e3022e7eb84939e3db1ce405aeaabefe",
+    "outputs/v14/peg_fit_7.7mm.stl": "06f006b8ec179600dc88c89d471ff6fc1f5a8d69bfba554b85965083686be757",
+    "outputs/v14/peg_fit_7.8mm.stl": "d094babc5f85e53689ce6b4afddae5ce397dcf07e1c3ea919aee1b2f2b5c6d96",
+    "outputs/v14/peg_fit_7.9mm.stl": "209533e144d1fb363ca4bcf3287394bbcb118755dd6e26be091dbd1be1a43326",
+    "outputs/v14/peg_insert_1.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v14/peg_insert_2.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v14/plaque_upper_right_latch.stl": "be22fa6220fb035d57537558c2044922945080e158238d88b758a54f834044a3",
+    "outputs/v14/rim_clip_fit_test.stl": "5791178027b33f397520ed055cef9f2f9a0a7466e1aac5eb267a2e3782cc7bc6",
+    "outputs/v14/socket_fit_test.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
+    "outputs/Star_Trek_compact_arm_base_v14.zip": "93ef1a6a6049317583e918762eb5dd34cca2a6d209bd73a09d62e79ededd5843"
+  },
+  "scripts": [
+    "render_v14.py",
+    "build_v14.py"
+  ]
+}
