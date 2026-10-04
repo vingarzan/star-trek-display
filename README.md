@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v23 — Recessed nail seat and removable cap**.
+Current version: **v24 — Uniform 12 mm frame braces**.
 
-- [Print files and previews](outputs/v23/)
+- [Print files and previews](outputs/v24/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v23.json)
+- [Artifact checksums](manifests/v24.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 
