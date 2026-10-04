@@ -1,0 +1,30 @@
+{
+  "version": "v7",
+  "title": "No-drill decorative plaque clips",
+  "imported_from_saved_artifacts": true,
+  "files": {
+    "outputs/v7/Assembly_notes.txt": "d7c4a81f31feeb9a1c7ace613753c5df9f428fd7718ca7374bcdbc7c0784f36b",
+    "outputs/v7/B_dual_socket_arm_130mm.stl": "0a8cc457e157ce534ae0a4e53b396c807e042434dc1b9f2e3f11aeccfbf9af0e",
+    "outputs/v7/clip_preview.png": "dec2d5f2dd18d186b192bb8f213f56dc96de96bd7d64efea78bc8dc9e45208d8",
+    "outputs/v7/geometry_checks.json": "0c88bee8906d209645273f31fbb3cce1d1c92294590b49b16ee5236a7793055f",
+    "outputs/v7/hex_open_original_size.stl": "d55e77aa70d0eee1b9168f7d99a7feb4dee03e0b8ace7c62885ed61335782389",
+    "outputs/v7/hex_plaque_clip_cradle.stl": "60c4bf846630cbc313a574485f4766e83dd41af1cfd0a82658e03f59b0fa5cab",
+    "outputs/v7/hex_ship_original_size.stl": "b8ccbbcbcc1389ad83e3df6eec8fb0245e07c6523de8a45a96516afabdd41e76",
+    "outputs/v7/original_joint_test_bottom.stl": "4410f20b223ff928c7db404bf4006f9c857ecbc8288782a6c109306cf213d468",
+    "outputs/v7/original_joint_test_top.stl": "7afb984749baf341646b0df2faeef294e3022e7eb84939e3db1ce405aeaabefe",
+    "outputs/v7/peg_fit_7.7mm.stl": "06f006b8ec179600dc88c89d471ff6fc1f5a8d69bfba554b85965083686be757",
+    "outputs/v7/peg_fit_7.8mm.stl": "d094babc5f85e53689ce6b4afddae5ce397dcf07e1c3ea919aee1b2f2b5c6d96",
+    "outputs/v7/peg_fit_7.9mm.stl": "209533e144d1fb363ca4bcf3287394bbcb118755dd6e26be091dbd1be1a43326",
+    "outputs/v7/peg_insert_1.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v7/peg_insert_2.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v7/plaque_turn_button.stl": "ccecdedc97852a69cbfe2431237ce1f48f50e5071606c7bf97f43640236db9c7",
+    "outputs/v7/rim_clip_fit_test.stl": "5791178027b33f397520ed055cef9f2f9a0a7466e1aac5eb267a2e3782cc7bc6",
+    "outputs/v7/socket_fit_test.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
+    "outputs/Star_Trek_clip_plaque_v7.zip": "406ae5c54a77f208811a72d4d474119fbe59c767a74213251a5d8157db01a8c8"
+  },
+  "scripts": [
+    "render_v7.py",
+    "build_v7.py",
+    "inspect_clip_edges.py"
+  ]
+}
