@@ -1,0 +1,25 @@
+{
+  "version": "v2",
+  "title": "Enlarged hexagon and removable peg inserts",
+  "imported_from_saved_artifacts": true,
+  "files": {
+    "outputs/v2/A_hex_carrier_244mm.stl": "1aad66cb6cd43096db70e44e406d0aeb7af37ab11cea2e1fc220c3dddbe5b118",
+    "outputs/v2/Assembly_notes.txt": "d5a90ef0eca7ccfd349d268b097942a975ae003865a3b07674510cb1b3418123",
+    "outputs/v2/B_arm_and_two_inserts_layout.stl": "e6a40cee51531e6d12d2608ce2faa719c6673dc810288371ed11b2b7bf365c95",
+    "outputs/v2/B_socket_arm_5deg_up.stl": "b1b7f53b3affa05ee7e1cc4d1a75dc6c586f930560e8daa2c88b67a14ff79c6c",
+    "outputs/v2/design_preview.png": "2783a1667ff859d267742b66c04710feb8ae98a586fe12bf3e7fcd0d4ac8c835",
+    "outputs/v2/drilling_template.stl": "ed53239fde424055605041e0d365926ddb2a989c3a075f8bb7811f2692fdf9d0",
+    "outputs/v2/geometry_checks.json": "d1c89d322be9c04ae75ed7c486482830b56a7177de64ef5d5056e6200390beba",
+    "outputs/v2/peg_fit_7.7mm.stl": "06f006b8ec179600dc88c89d471ff6fc1f5a8d69bfba554b85965083686be757",
+    "outputs/v2/peg_fit_7.8mm.stl": "d094babc5f85e53689ce6b4afddae5ce397dcf07e1c3ea919aee1b2f2b5c6d96",
+    "outputs/v2/peg_fit_7.9mm.stl": "209533e144d1fb363ca4bcf3287394bbcb118755dd6e26be091dbd1be1a43326",
+    "outputs/v2/peg_insert_1.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v2/peg_insert_2.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v2/socket_fit_test.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
+    "outputs/Sovereign_wall_mount_v2.zip": "edc55153de0059d3927f7a2155e5bb263ec925a06d61b9294dcc2c46d8ca8947"
+  },
+  "scripts": [
+    "render_v2.py",
+    "build_v2.py"
+  ]
+}

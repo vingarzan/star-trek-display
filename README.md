@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v1 — Initial inclined ship mount**.
+Current version: **v2 — Enlarged hexagon and removable peg inserts**.
 
-- [Print files and previews](outputs/)
+- [Print files and previews](outputs/v2/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v1.json)
+- [Artifact checksums](manifests/v2.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 

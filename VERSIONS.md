@@ -5,5 +5,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | Version | Change | Outputs |
 | --- | --- | --- |
 | [v1](../../tree/v1) | Initial inclined ship mount | [files](outputs/) |
+| [v2](../../tree/v2) | Enlarged hexagon and removable peg inserts | [files](outputs/v2) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
