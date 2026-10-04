@@ -27,8 +27,7 @@
     "outputs/v29/fit_test_plate_gap_4.7mm.stl": "5bb22506f38baf856b09a8ffd9a410b065ae79ac710688a35a0c83448422b8a1",
     "outputs/v29/fit_test_socket.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
     "outputs/v29/fit_test_plate_gap_5.7mm.stl": "dda10d6bafe1d9d0cc5ab50414590d9a2613eb48a3ffe16f84063c5e51d7c793",
-    "outputs/v29/fit_test_peg_6.0mm.stl": "a88370ba797c61c8692d8ebbefd425f57f5f187ead49f9723e8708ec8f10ab65",
-    "outputs/Star_Trek_removable_snug_pegs_v29.zip": "1dd7acca2ce4e68894929bdeb5eb9ed9bb2accdad6563694cdfd206ac7d490ac"
+    "outputs/v29/fit_test_peg_6.0mm.stl": "a88370ba797c61c8692d8ebbefd425f57f5f187ead49f9723e8708ec8f10ab65"
   },
   "scripts": [
     "build_v29.py",

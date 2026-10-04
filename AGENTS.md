@@ -1,11 +1,11 @@
 # Version publication workflow
-The user explicitly requests that every new design version be committed and pushed to https://github.com/vingarzan/star-trek-display.
+The user explicitly requests every new design version be committed and pushed to https://github.com/vingarzan/star-trek-display.
 
-- Keep historical outputs immutable. Add outputs/vN for each new version and preserve fit_test_ prefixes.
-- Include printable STLs, relevant preview, assembly notes and geometry checks. Include the version ZIP if produced.
-- Update README.md, VERSIONS.md and manifests/vN.json; add/update the relevant generator and renderer.
-- Validate exported files and inspect the preview before committing. Geometry checks do not imply physical testing.
-- Create one descriptive commit per version and an unused vN tag. Push main and the new tag after the version is ready; no repeated permission request is needed for this authorized workflow.
-- Fetch first and preserve remote work. Never force-push or rewrite published historical versions.
-- Report any authentication or push failure explicitly instead of claiming publication.
-- Do not commit personal photos, credentials, virtual environments or unrelated workspace files.
+- Keep only the latest version outputs, manifest and version-specific scripts on main. Remove superseded versions from the current tree when publishing a new version; preserve their existing commits and tags.
+- Never track ZIP files. Local ZIP downloads may still be produced, but are excluded from repository uploads.
+- Include current STLs, preview, assembly notes and geometry checks. Preserve fit_test_ prefixes.
+- Update README.md, the current manifest and VERSIONS.md; historical links must point to version tags, not deleted current-tree paths.
+- Validate exported files and inspect previews before committing. Geometry checks do not imply physical testing.
+- Create a descriptive commit per design version and an unused vN tag, then push main and the new tag. The user has authorized this workflow; do not ask repeatedly.
+- Fetch first and preserve remote work. Never force-push, rewrite published versions or move published tags.
+- Report failed publication explicitly. Do not upload personal photos, credentials, virtual environments or unrelated scratch files.

@@ -1,8 +1,0 @@
-exec(open('work/render.py').read().split('draw(fig.add_subplot(131')[0].replace("A=t.load('outputs/A_hex_carrier.stl');B=t.load('outputs/B_arm_5deg_up.stl');scene=t.load('work/assembly.glb')",''))
-plt.close(fig);fig=plt.figure(figsize=(12,6),facecolor='#f3f5f7')
-items=[('outputs/v25/peg_insert_8mm.stl','Previous · abrupt shoulder'),('outputs/v26/peg_insert_8mm.stl','8 mm peg · 19 mm engagement'),('outputs/v26/peg_insert_6mm.stl','6 mm peg · 11 mm engagement')]
-for i,(path,title) in enumerate(items):
- m=t.load(path);draw(fig.add_subplot(1,3,i+1,projection='3d'),[m],['#56a4ac'],title,[(-11,11),(-11,11),(0,35)],20,-55)
-fig.suptitle('Round conical peg transitions · full engagement lengths retained',fontsize=20,y=.94)
-fig.text(.5,.055,'10 mm diameter cone bases · 3 mm and 5 mm taper heights · Cross-bolts unchanged',ha='center',fontsize=11)
-plt.subplots_adjust(left=.01,right=.99,top=.81,bottom=.13,wspace=.04);plt.savefig('outputs/v26/tapered_pegs_preview.png',dpi=160,facecolor=fig.get_facecolor())

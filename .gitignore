@@ -4,3 +4,6 @@ __pycache__/
 work/venv/
 work/mpl/
 .venv/
+
+# ZIP downloads are produced locally, not stored in Git.
+*.zip
