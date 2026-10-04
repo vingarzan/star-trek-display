@@ -1,4 +1,4 @@
-STAR TREK WALL DISPLAY — REVISION 37
+STAR TREK WALL DISPLAY — REVISION 38
 Units mm. Print at 100% scale. Physically untested prototypes.
 
 INTEGRATED SHIP MOUNT
@@ -74,9 +74,9 @@ Print the holder flat as supplied. The retainer is supplied cap-down for printin
 
 LIGHTER SINGLE-SOCKET ARM
 hex_ship_corner_braced_light_arm.stl is a parallel option to the dual-socket corner-braced arm. The outward 5-degree socket is removed. The upward socket and optional pin bore keep their original geometry and location: peg axis 138 mm from wall, 130 mm beyond the frame front. Both current 6 mm and 8 mm inserts pass seating and withdrawal geometry checks.
-The centred inner hexagon measures 52 x 45.033 x 8 mm, reduced from 96 x 83.138 x 8 mm. The arm is approximately 16.95 mm wide near its root, widening to a 20 x 20 mm socket housing; the rounded root reinforcement extends beyond the arm section. The 10.4 mm socket cavity and optional pin bore remain. The lower angled support occupies less depth along the wall, with its rounded joint fully supported by the smaller base. The rounded tip ends 147 mm from the wall instead of 166.773 mm. All three corner braces remain 12 x 8 mm; the original nail tab and outer joining features remain.
-Solid-model volume is approximately 135.88 cm3 versus 242.00 cm3, a 43.9% reduction. Filament usage depends on slicer settings. This reduced arm section has not been physically load-tested; do not infer a 600 g rating from the geometry checks.
+The centred inner hexagon measures 38 x 32.909 x 8 mm, reduced from 96 x 83.138 x 8 mm. The arm is approximately 16.95 mm wide near its root, widening to a 20 x 20 mm socket housing; the rounded root reinforcement extends beyond the arm section. The 10.4 mm socket cavity and optional pin bore remain. The lower angled support occupies less depth along the wall, with its rounded joint fully supported by the smaller base. The rounded tip ends 147 mm from the wall instead of 166.773 mm. All three corner braces remain 12 x 8 mm; the original nail tab and outer joining features remain.
+Solid-model volume is approximately 133.36 cm3 versus 242.00 cm3, a 44.9% reduction. Filament usage depends on slicer settings. This reduced arm section has not been physically load-tested; do not infer a 600 g rating from the geometry checks.
 
-REVISION 37 ARM HEIGHT AND BASE CHANGE
-The arm cross-section height (along wall Y, not its reach away from the wall) is reduced. The socket housing is now 20 x 20 mm externally. Its rear face is Y=-6, its mouth remains Y=14, and the socket floor stays Y=1.8. The central hexagon is centred and measures 52 x 45.033 x 8 mm, supporting the complete rounded joint footprint. The arm's tip remains 147 mm from the wall; peg axis remains 138 mm from the wall and 130 mm beyond the frame front.
-Solid-model volume is 22.0% lower than revision 36. Both peg inserts pass seating and withdrawal checks; a 3.39 mm clearance probe passes the nominal 3.4 mm faceted retaining-pin bore. The thinner section and smaller base have not been physically load-tested.
+CURRENT ARM HEIGHT AND BASE
+The arm cross-section height (along wall Y, not its reach away from the wall) is reduced. The socket housing is now 20 x 20 mm externally. Its rear face is Y=-6, its mouth remains Y=14, and the socket floor stays Y=1.8. The central hexagon is centred and measures 38 x 32.909 x 8 mm, supporting the complete rounded joint footprint. The arm's tip remains 147 mm from the wall; peg axis remains 138 mm from the wall and 130 mm beyond the frame front.
+The central hexagon was reduced from 52 to 38 mm wide in revision 38, saving another 2.52 cm3 of solid-model volume. Both peg inserts pass seating and withdrawal checks; a 3.39 mm clearance probe passes the nominal 3.4 mm faceted retaining-pin bore. The thinner section and smaller base have not been physically load-tested.

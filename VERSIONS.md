@@ -52,3 +52,5 @@ v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks b
 | [v36](https://github.com/vingarzan/star-trek-display/tree/v36) | Narrow single-socket arm to about 17–20 mm while preserving 130 mm clearance | [files](https://github.com/vingarzan/star-trek-display/tree/v36/outputs/) |
 
 | [v37](https://github.com/vingarzan/star-trek-display/tree/v37) | Reduce arm cross-section height and central base to 52 mm, preserving 130 mm clearance | [files](https://github.com/vingarzan/star-trek-display/tree/v37/outputs/) |
+
+| [v38](https://github.com/vingarzan/star-trek-display/tree/v38) | Reduce light arm central hexagon from 52 to 38 mm wide, retaining full joint support | [files](https://github.com/vingarzan/star-trek-display/tree/v38/outputs/) |
