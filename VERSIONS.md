@@ -19,5 +19,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v13](../../tree/v13) | Narrow clips and upper-right plaque latch | [files](outputs/v13) |
 | [v14](../../tree/v14) | Compact flat arm base | [files](outputs/v14) |
 | [v15](../../tree/v15) | Hexagonal arm base outline | [files](outputs/v15) |
+| [v16](../../tree/v16) | Extended base edges and outward chamfer | [files](outputs/v16) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
