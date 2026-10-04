@@ -48,3 +48,5 @@ v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks b
 | [v34](https://github.com/vingarzan/star-trek-display/tree/v34) | Add Galaxy plaque holder with three lower clips and upper-right retainer | [files](https://github.com/vingarzan/star-trek-display/tree/v34/outputs/) |
 
 | [v35](https://github.com/vingarzan/star-trek-display/tree/v35) | Add lighter corner-braced arm with single upward socket and smaller centred base | [files](https://github.com/vingarzan/star-trek-display/tree/v35/outputs/) |
+
+| [v36](https://github.com/vingarzan/star-trek-display/tree/v36) | Narrow single-socket arm to about 17–20 mm while preserving 130 mm clearance | [files](https://github.com/vingarzan/star-trek-display/tree/v36/outputs/) |

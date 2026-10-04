@@ -29,6 +29,9 @@ arm=union([low,high])
 # Round the new tip without changing the socket walls below Z=144.
 cap=rounded(box([28,28,10],[0,0,142]),3)
 arm=union([inter(arm,box([120,120,136.01],[0,0,75.995])),inter(arm,cap)])
+# Narrow only material outside the 10.4 mm socket envelope. Its internal
+# walls and the pin bore's Y-Z profile remain unchanged.
+v=arm.vertices.copy();x=v[:,0];v[:,0]=np.sign(x)*np.where(np.abs(x)<=5.2,np.abs(x),5.2+(np.abs(x)-5.2)*(4.8/8.8));arm.vertices=v
 root=hexagon(38,0,8)
 arm=diff(arm,diff(box([120,120,8],[0,0,4]),root))
 ribs=[]
@@ -44,12 +47,15 @@ for diameter in [6,8]:
  peg=t.load(out/f'peg_insert_{diameter}mm.stl');peg.apply_transform(t.transformations.rotation_matrix(-np.pi/2,[1,0,0]));peg.apply_translation([0,1.95,138])
  for lift in [0,.15,1,4,8,13]:
   q=peg.copy();q.apply_translation([0,lift,0]);v=float(abs(inter(model,q).volume));checks[f'peg_{diameter}mm_lift_{lift}_overlap_mm3']=v;assert v<.01
-socket_region=box([40,40,18],[0,10,135]) # Z126..144; includes unchanged socket and pin bore.
+socket_region=box([10.4,12.2,10.4],[0,7.9,138]) # Exact cavity from its floor at Y=1.8 to mouth at Y=14.
 a=inter(model,socket_region);b=inter(old,socket_region)
-err=float(abs(diff(a,b).volume)+abs(diff(b,a).volume));assert err<.01
-checks['socket_region_difference_mm3']=err
+err=float(abs(a.volume)+abs(b.volume));assert err<.01
+checks['socket_cavity_obstruction_mm3']=err
 checks['unsupported_footprint_mm3']=float(unsupported)
-report=json.loads((out/'geometry_checks.json').read_text());report['hex_ship_corner_braced_light_arm']=dict(dimensions_mm=model.extents.tolist(),volume_cm3=float(model.volume/1000),watertight=True,components=1,export_reload_verified=True,central_hex_width_mm=76,central_hex_height_mm=float(76*np.cos(np.pi/6)),arm_width_at_base_mm=22.4,tip_height_from_wall_mm=147,upward_socket_axis_from_wall_mm=138,outward_socket=False,volume_reduction_percent=float(100*(1-model.volume/old.volume)),checks=checks)
+# Optional retaining pin remains a clear 3.4 mm bore through the narrower housing.
+pin=t.creation.cylinder(radius=1.695,height=30,sections=96);pin.apply_transform(t.geometry.align_vectors([0,0,1],[1,0,0]));pin.apply_translation([0,8.2,138])
+checks['pin_bore_obstruction_mm3']=float(abs(inter(model,pin).volume));assert checks['pin_bore_obstruction_mm3']<.01
+report=json.loads((out/'geometry_checks.json').read_text());report['hex_ship_corner_braced_light_arm']=dict(dimensions_mm=model.extents.tolist(),volume_cm3=float(model.volume/1000),watertight=True,components=1,export_reload_verified=True,central_hex_width_mm=76,central_hex_height_mm=float(76*np.cos(np.pi/6)),arm_width_at_base_mm=float(2*(5.2+(11.2-5.2)*(4.8/8.8))),socket_housing_width_mm=20,tip_height_from_wall_mm=147,upward_socket_axis_from_wall_mm=138,outward_socket=False,volume_reduction_percent=float(100*(1-model.volume/old.volume)),checks=checks)
 (out/'geometry_checks.json').write_text(json.dumps(report,indent=2)+'\n')
 fig=plt.figure(figsize=(14,7),facecolor='#f3f5f7')
 draw(fig.add_subplot(121,projection='3d'),[model],['#688ca5'],'Lighter corner-braced arm — front',[(-112,112),(-100,100),(0,170)],90,-90)
