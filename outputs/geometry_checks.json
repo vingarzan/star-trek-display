@@ -8,18 +8,20 @@
     "watertight": true,
     "components": 1,
     "export_reload_verified": true,
-    "volume_cm3": 223.65456510273623
+    "volume_cm3": 223.78726758947224,
+    "title_notch_filled": true
   },
   "hex_open_original_size": {
     "dimensions_mm": [
       210.0,
       185.86534881591797,
-      7.99999998972168
+      8.0
     ],
     "watertight": true,
     "components": 1,
     "export_reload_verified": true,
-    "volume_cm3": 29.618115338883946
+    "volume_cm3": 29.750817654366593,
+    "title_notch_filled": true
   },
   "geometry_checks": {
     "level_flight_insert_intersection_mm3": 0.0,
@@ -241,12 +243,13 @@
     "dimensions_mm": [
       210.0,
       185.86534881591797,
-      16.899999608251953
+      16.899999618530273
     ],
     "watertight": true,
     "components": 1,
     "export_reload_verified": true,
-    "volume_cm3": 29.979127348392666
+    "volume_cm3": 30.111829663875337,
+    "title_notch_filled": true
   },
   "peg_insert_6mm": {
     "dimensions_mm": [
@@ -266,12 +269,13 @@
     "dimensions_mm": [
       210.0,
       185.86534881591797,
-      15.899999608251953
+      15.899999618530273
     ],
     "watertight": true,
     "components": 1,
     "export_reload_verified": true,
-    "volume_cm3": 29.943127348392668
+    "volume_cm3": 30.07582966387534,
+    "title_notch_filled": true
   },
   "fit_test_plate_gap_4.7mm": {
     "dimensions_mm": [
@@ -379,18 +383,15 @@
     "dimensions_mm": [
       210.0,
       185.86534881591797,
-      7.99999998972168
+      8.0
     ],
     "watertight": true,
     "components": 1,
     "export_reload_verified": true,
-    "volume_cm3": 29.012657971995154,
-    "original_border_difference_mm3": [
-      0.0,
-      0.0
-    ],
+    "volume_cm3": 29.14536016514059,
     "inner_opening_empty": true,
-    "nail_tab": false
+    "nail_tab": false,
+    "title_notch_filled": true
   },
   "hex_ship_corner_braced_arm": {
     "dimensions_mm": [
@@ -398,7 +399,7 @@
       185.86534881591797,
       166.77334594726562
     ],
-    "volume_cm3": 235.11905062059228,
+    "volume_cm3": 235.2517531054575,
     "watertight": true,
     "components": 1,
     "export_reload_verified": true,
@@ -412,6 +413,45 @@
     "upper_nail_support_retained": true,
     "arm_above_frame_difference_mm3": 0.0,
     "outer_border_difference_mm3": 0.0009756248261207172,
-    "nail_mount_difference_mm3": 0.00036631185269773623
+    "nail_mount_difference_mm3": 0.00036631185269773623,
+    "title_notch_filled": true
+  },
+  "title_notch_fill": {
+    "hex_empty_original_size": {
+      "added_material_mm3": 132.70219314543647,
+      "removed_material_mm3": 6.622777138416229e-06,
+      "changes_outside_title_recess_mm3": 4.545914578527125e-05,
+      "unfilled_recess_mm3": 4.2281276404487755e-06
+    },
+    "hex_open_original_size": {
+      "added_material_mm3": 132.70231548264928,
+      "removed_material_mm3": 4.598958109151378e-07,
+      "changes_outside_title_recess_mm3": 9.844958405653045e-06,
+      "unfilled_recess_mm3": 1.650081079181594e-08
+    },
+    "hex_plaque_snug_4.7mm": {
+      "added_material_mm3": 132.7023154826711,
+      "removed_material_mm3": 4.598958109151378e-07,
+      "changes_outside_title_recess_mm3": 9.844958405653045e-06,
+      "unfilled_recess_mm3": 1.650081079181594e-08
+    },
+    "hex_plaque_snug_5.7mm": {
+      "added_material_mm3": 132.7023154826711,
+      "removed_material_mm3": 4.598958109151378e-07,
+      "changes_outside_title_recess_mm3": 9.844958405653045e-06,
+      "unfilled_recess_mm3": 1.650081079181594e-08
+    },
+    "hex_ship_corner_braced_arm": {
+      "added_material_mm3": 132.70248486523633,
+      "removed_material_mm3": 1.6342751803821644e-09,
+      "changes_outside_title_recess_mm3": 3.0316490059097606e-13,
+      "unfilled_recess_mm3": 3.257921955916269e-07
+    },
+    "hex_ship_integrated_rounded_arm": {
+      "added_material_mm3": 132.70248673600145,
+      "removed_material_mm3": 2.4011712121616003e-05,
+      "changes_outside_title_recess_mm3": 1.335160609983177e-05,
+      "unfilled_recess_mm3": 6.791675417616716e-06
+    }
   }
 }

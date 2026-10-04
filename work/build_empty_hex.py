@@ -1,6 +1,7 @@
 """Generate an empty original-size frame from the supplied no-nail STL."""
 from pathlib import Path
 import json
+from fill_title_notches import filled
 import numpy as np
 import trimesh as t
 import matplotlib
@@ -18,7 +19,7 @@ cut = t.convex.convex_hull(np.array([
     [radius*np.cos(a), radius*np.sin(a), z]
     for a in np.arange(6)*np.pi/3 for z in [-1, 9]
 ]))
-empty = t.boolean.difference([frame, cut], engine='manifold')
+empty = filled(t.boolean.difference([frame, cut], engine='manifold'))
 path = out / 'hex_empty_original_size.stl'
 empty.export(path)
 mesh = t.load(path)
@@ -26,7 +27,7 @@ assert mesh.is_volume and len(mesh.split()) == 1
 assert np.allclose(mesh.extents, [210, 185.86534882, 8], atol=0.0001)
 assert abs(t.boolean.intersection([mesh, cut], engine='manifold').volume) < 0.001
 # All removed material must be confined to the central opening.
-original_border = t.boolean.difference([frame, cut], engine='manifold')
+original_border = filled(t.boolean.difference([frame, cut], engine='manifold'))
 errors = [abs(t.boolean.difference([a,b], engine='manifold').volume)
           for a,b in [(mesh, original_border), (original_border, mesh)]]
 assert max(errors) < 0.001

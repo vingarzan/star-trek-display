@@ -1,10 +1,11 @@
 {
-  "version": "v31",
-  "title": "Parallel integrated arm with corner-to-corner braces",
+  "version": "v32",
+  "title": "Fill title-holder notch on all hexagon variants",
   "files": {
-    "outputs/Assembly_notes.txt": "dafb2ba034fa7b0d17fcc1924eee1c405582d34b2941efa0543119b8ac9d9e37",
+    "outputs/Assembly_notes.txt": "8362c39aae1191954c800dbd3b9d3977aa8abde5273276ea9c87ac9ca66ff86a",
     "outputs/corner_braced_arm_preview.png": "e0b666429d72666ea44cc254289b1eba62c6f21dac67eb45a7d57289c4076bf4",
     "outputs/empty_hex_preview.png": "72cad53b746afad095d1f85098271e5b5f0baa70292105c5a9dd1304f942cda0",
+    "outputs/filled_title_notch_preview.png": "f1b6d57acc385a53ad38cd154d99f02549d94f04094bec3bbd70ec2672f29269",
     "outputs/fit_test_arm_stem_10.2mm.stl": "9eb6124f5c385ff92ee14ed221f7f20aa8df85b81a7705f35b98be1f8e6a230d",
     "outputs/fit_test_arm_stem_10.3mm.stl": "1b6b9b8b416ead5db120870a49ddabd5445d48419fc89916caaacd1c7b3f61f8",
     "outputs/fit_test_arm_stem_10.4mm.stl": "f0075d64633dc2a71cb1cbb1ba11b59623d1a72236b386a072b545d727bdedf7",
@@ -19,13 +20,13 @@
     "outputs/fit_test_plate_gap_4.7mm.stl": "5bb22506f38baf856b09a8ffd9a410b065ae79ac710688a35a0c83448422b8a1",
     "outputs/fit_test_plate_gap_5.7mm.stl": "dda10d6bafe1d9d0cc5ab50414590d9a2613eb48a3ffe16f84063c5e51d7c793",
     "outputs/fit_test_socket.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
-    "outputs/geometry_checks.json": "2dcbb33d8d7c5503912062368435585db572db39faa96f218884bc18743d20d4",
-    "outputs/hex_empty_original_size.stl": "d04381ebb383554239040f173febc936d9a7a1d36942f1f802a33bbee79b4597",
-    "outputs/hex_open_original_size.stl": "abb26a855aa343f0d2a15ad5c788a8fc15a3d1f42084b949bdf77e8d5755136c",
-    "outputs/hex_plaque_snug_4.7mm.stl": "a09541b37c2fa892f5561633658dc023ced92ea0e59d3c0684d3bf9ff59585f7",
-    "outputs/hex_plaque_snug_5.7mm.stl": "97b70e9898ea68bf3136be280e8578e4ecc3c009c05b74dfeee986389f2d741c",
-    "outputs/hex_ship_corner_braced_arm.stl": "805d5a87c714ee300164b40af97248bc947f77aa08de8081cfdf969687493f91",
-    "outputs/hex_ship_integrated_rounded_arm.stl": "9ebc4908530787f25ff11cf1d3e1ed7d7fbbfdd7cc5a7410ba5c085d3507f44c",
+    "outputs/geometry_checks.json": "9217a59f5a9de2908c7e4a07ea6c920858f43a4d952122412f66cbf2ddde3e76",
+    "outputs/hex_empty_original_size.stl": "5ff48d05b8aa9bf49b46d5ef1bca7313a300520656d0cfb1cbb21916d5b77a2d",
+    "outputs/hex_open_original_size.stl": "7511543714909d4e04e7a10f7386ea80afa49f1654cef154b4be33c33f683e86",
+    "outputs/hex_plaque_snug_4.7mm.stl": "4519b002efac701887fc0a67f060231915f22227d9c94b2306586120166023f4",
+    "outputs/hex_plaque_snug_5.7mm.stl": "5ceb8fef11c09c8b7f60f7f8b31f741bc58d8ba6f6ccce97dc2d2b6b6367b726",
+    "outputs/hex_ship_corner_braced_arm.stl": "c04180fb15a492e1a6c1c053fc81b1d31a0debc671a3b4135f36d326110da415",
+    "outputs/hex_ship_integrated_rounded_arm.stl": "a07902127f6c0aef1968193ee611df71118f6c70ddd8e5698fef6a13d44bb4cc",
     "outputs/nail_cover_cap.stl": "4965e35396ab12024bb07713cc1610e7a06acb5c2acdee05f099c813a6ebe1ac",
     "outputs/peg_insert_6mm.stl": "4638a71121cbff55ccc7cecdb759c375a8f97731158e706bc799f5273f308a94",
     "outputs/peg_insert_8mm.stl": "bfc3386f88a0837e91b90533baec4e597b8eaf29f4a001c89644eea1bb9bb6e2",
@@ -38,6 +39,7 @@
     "render_pegs.py",
     "package.py",
     "build_empty_hex.py",
-    "build_corner_arm.py"
+    "build_corner_arm.py",
+    "fill_title_notches.py"
   ]
 }
