@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v10 — Flush plaque clips without upper latch**.
+Current version: **v11 — Integrated rounded arm and hexagon**.
 
-- [Print files and previews](outputs/v10/)
+- [Print files and previews](outputs/v11/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v10.json)
+- [Artifact checksums](manifests/v11.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 
