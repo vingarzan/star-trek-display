@@ -1,4 +1,4 @@
-STAR TREK WALL DISPLAY — REVISION 34
+STAR TREK WALL DISPLAY — REVISION 35
 Units mm. Print at 100% scale. Physically untested prototypes.
 
 INTEGRATED SHIP MOUNT
@@ -63,7 +63,7 @@ CORNER-BRACED ARM ALTERNATIVE
 hex_ship_corner_braced_arm.stl has three 12 x 8 mm braces along opposite-corner axes (0, 60 and 120 degrees). Its central hexagon is centred at X=0, Y=0 and measures 96 x 83.138 x 8 mm. This size supports the full lower rounded arm joint. The vertical connection to the nail mount is removed; the nail tab matches hex_open_original_size.stl exactly. Use the same peg inserts. The nail_cover_cap.stl is for the side-braced mount's recess and is not specified for this restored original nail tab. The side-braced arm remains unchanged. Geometry checks establish a single watertight solid, not physical load capacity.
 
 FILLED TITLE-HOLDER NOTCH
-All seven hexagon variants have the original upper-right inner-edge title recess filled. Approximately 132.7 mm3 of material is added to each frame. External interlocking slots, overall dimensions, mounting features, clips and sockets are preserved. This restores solid material locally; increased load capacity has not been physically tested.
+All eight hexagon variants have the original upper-right inner-edge title recess filled. Approximately 132.7 mm3 of material is added to each frame. External interlocking slots, overall dimensions, mounting features, clips and sockets are preserved. This restores solid material locally; increased load capacity has not been physically tested.
 
 GALAXY PLAQUE — SMALLER OUTLINE
 Use hex_plaque_galaxy_4.7mm.stl and plaque_retainer_galaxy_4.7mm.stl for the supplied Galaxy stand. The older hex_plaque_snug_4.7mm.stl uses the larger Sovereign outline; it is a separate option.
@@ -71,3 +71,8 @@ The Galaxy disc is approximately 173.21 mm across. Its single protruding point g
 The supplied STL has a 4 mm base layer; the holder uses the user's measured 4.7 mm printed thickness, with a 4.9 mm retaining gap. The source base outline is used without scaling. Collision checks use that outline extruded to 4.7 mm, excluding the upright arm and raised decoration.
 Mount the empty holder to the wall first. With the retainer removed, place the plaque 10 mm above its final position, bring its back against the frame, then slide it down 10 mm into the three clips. Fit the upper-right keeper using one M2 x 10 mm screw into the 1.6 mm printed pilot. This provides about 2.7 mm screw engagement. Do not overtighten the small printed pilot. Removal reverses those steps.
 Print the holder flat as supplied. The retainer is supplied cap-down for printing. The existing fit_test_plate_gap_4.7mm.stl checks the same 4.9 mm gap. Printed fit, pilot-hole retention and strength remain physically untested.
+
+LIGHTER SINGLE-SOCKET ARM
+hex_ship_corner_braced_light_arm.stl is a parallel option to the dual-socket corner-braced arm. The outward 5-degree socket is removed. The upward socket and optional pin bore keep their original geometry and location: peg axis 138 mm from wall, 130 mm beyond the frame front. Both current 6 mm and 8 mm inserts pass seating and withdrawal geometry checks.
+The centred inner hexagon measures 76 x 65.818 x 8 mm, reduced from 96 x 83.138 x 8 mm. The arm is 22.4 mm wide at its root, tapering to the original socket housing width. The lower angled support occupies less depth along the wall, with its rounded joint fully supported by the smaller base. The rounded tip ends 147 mm from the wall instead of 166.773 mm. All three corner braces remain 12 x 8 mm; the original nail tab and outer joining features remain.
+Solid-model volume is approximately 200.57 cm3 versus 242.00 cm3, a 17.1% reduction. Filament usage depends on slicer settings. This reduced arm section has not been physically load-tested; do not infer a 600 g rating from the geometry checks.

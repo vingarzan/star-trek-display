@@ -535,5 +535,39 @@
         "export_reload_verified": true
       }
     }
+  },
+  "hex_ship_corner_braced_light_arm": {
+    "dimensions_mm": [
+      210.0,
+      185.86534881591797,
+      147.0
+    ],
+    "volume_cm3": 200.5697220501412,
+    "watertight": true,
+    "components": 1,
+    "export_reload_verified": true,
+    "central_hex_width_mm": 76,
+    "central_hex_height_mm": 65.81793068761735,
+    "arm_width_at_base_mm": 22.4,
+    "tip_height_from_wall_mm": 147,
+    "upward_socket_axis_from_wall_mm": 138,
+    "outward_socket": false,
+    "volume_reduction_percent": 17.118936194688274,
+    "checks": {
+      "peg_6mm_lift_0_overlap_mm3": 0.0,
+      "peg_6mm_lift_0.15_overlap_mm3": 0.0,
+      "peg_6mm_lift_1_overlap_mm3": 0.0,
+      "peg_6mm_lift_4_overlap_mm3": 0.0,
+      "peg_6mm_lift_8_overlap_mm3": 0.0,
+      "peg_6mm_lift_13_overlap_mm3": 0.0,
+      "peg_8mm_lift_0_overlap_mm3": 0.0,
+      "peg_8mm_lift_0.15_overlap_mm3": 0.0,
+      "peg_8mm_lift_1_overlap_mm3": 0.0,
+      "peg_8mm_lift_4_overlap_mm3": 0.0,
+      "peg_8mm_lift_8_overlap_mm3": 0.0,
+      "peg_8mm_lift_13_overlap_mm3": 0.0,
+      "socket_region_difference_mm3": 4.1298489141657534e-05,
+      "unsupported_footprint_mm3": 0.0
+    }
   }
 }
