@@ -1,4 +1,4 @@
-STAR TREK WALL DISPLAY — REVISION 29
+STAR TREK WALL DISPLAY — REVISION 30
 Units mm. Print at 100% scale. Physically untested prototypes.
 
 INTEGRATED SHIP MOUNT
@@ -55,3 +55,6 @@ Both square base solids were compared and are identical. Both insert meshes clea
 
 REVISION 29 VALIDATION
 Identical lower stems verified by solid comparison. Both socket positions have 0.15 mm nominal floor clearance at bolt alignment and clear M3 bolt paths. The inserted solids clear the arm. Pin-free grip and load capacity have not been physically tested. All other models remain from v28.
+
+EMPTY HEXAGON
+hex_empty_original_size.stl: original 210 x 185.865 x 8 mm outer border and connectors, with no nail tab, arm or internal supports. Print flat at 100% scale. The existing hex_open_original_size.stl retains its nail tab.

@@ -36,3 +36,5 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v29](https://github.com/vingarzan/star-trek-display/tree/v29) | Snug stems; 0.15 mm nominal bottom gap; optional pin and fit samples | [files](https://github.com/vingarzan/star-trek-display/tree/v29/outputs/v29) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
+
+| [v30](https://github.com/vingarzan/star-trek-display/tree/v30) | Add empty original-size hexagon without nail tab or internal supports | [files](https://github.com/vingarzan/star-trek-display/tree/v30/outputs/) |
