@@ -1,0 +1,37 @@
+SOVEREIGN WALL MOUNT — REVISION 3: LEVEL FLIGHT AND WALL DISPLAY
+Units: millimetres. Print at 100% scale. Prototype, not load-rated.
+
+WHAT CHANGED
+B is now a single long, braced arm with two separate sockets. Move the SAME removable ship insert between sockets to change the axis of the ship's belly. There is no hinge and no friction-only adjustable joint.
+
+LEVEL FLIGHT: use the socket on the top of the beam. Its peg points vertically upward, with its axis exactly 130 mm beyond the front surface of the decorative base (the back of B's mounting flange). Set the ship's nose sideways along the wall. Assuming the ship hole is perpendicular to the belly, its belly will be parallel to the floor. The peg shoulder is 17 mm above the arm's horizontal centreline. The arm continues beyond this socket to house the wall-display socket; check clearance against the real curved hull.
+
+WALL DISPLAY: use the socket at the end of the beam. Its peg points outward and 5 degrees upward. The ship insert can be indexed by 90 degrees for nose-up or sideways. The ship sits farther from the wall than in revision 2: the shoulder is about 161 mm beyond the decorative base. This version prioritizes one fixed arm that accepts both orientations. The 130 mm dimension applies to the level-flight peg axis only.
+
+FILES
+A_hex_carrier_244mm.stl: unchanged from revision 2, 244 x 215.96 x 8 mm. Enlarged hexagon, reinforced centre, captive M4 nuts, and two wall fixing holes 156 mm apart. Enlarged connectors mate with other copies of this version, not the original 210 mm hexagons. The base still slightly overhangs the hexagon.
+B_dual_socket_arm_130mm.stl: 80 x 80 x 158.99 mm. One connected body with a continuous lower brace and 28 mm square main beam. Both sockets accept the same insert.
+peg_insert_1.stl and peg_insert_2.stl: identical removable inserts, unchanged from revision 2. Each has a 10 mm square stem, collar, and 7.8 mm diameter peg projecting 19 mm. Two orthogonal 3.4 mm bores allow 90-degree indexing.
+socket_fit_test.stl: check square-stem fit and cross-bolt alignment before printing B.
+peg_fit_7.7mm.stl / 7.8mm / 7.9mm: small round-peg fit tests for the measured 8.1 mm ship hole. These are tests, not alternative full inserts. If another diameter fits better, revise the inserts before printing them.
+drilling_template.stl: 56 x 56 mm square hole pattern for the existing base.
+
+CLEARANCE REFERENCE
+130 mm is measured from the FRONT of the reused decorative base to the vertical peg axis. The 8 mm B flange is already included. With an 8 mm carrier and an 11.4 mm decorative base, the axis would be about 149.4 mm from the wall; actual base thickness and levelling spacers change that wall distance. It is the mounting-hole axis, not a verified ship centre of gravity. Ship width, hull shape and neighbouring-ship clearance are not known from the supplied stand file.
+
+FIT AND PRINTING
+All supplied parts fit geometrically inside a 250 x 250 mm bed. A leaves 3 mm on each side along X: check brims and exclusion zones in the slicer. The STL orientation describes assembly coordinates; it is not a verified strength-optimal printing orientation. The transverse bolt holes and socket roofs may need appropriate support/bridging settings. No tested printer profile or G-code is supplied.
+Print a socket test and one insert first. Confirm hand-sliding fit, collar seating and bolt alignment in both index positions. Test the round peg in the ship without force or adhesive. Do not scale the whole model to fix one tolerance, because this would alter the hardware and mating dimensions.
+
+HARDWARE AND MOUNTING
+Use four M4 machine screws and washers through B, the decorative base and A, engaging four M4 nuts in A's rear pockets. The mounting pattern remains 56 x 56 mm. Select screw length from the actual assembled thickness: fully engage the nuts without protruding into the wall. Decorative details may require local levelling or rigid spacers so B sits evenly. Do not use bolt tension to flatten a rocking flange.
+Load the captive nuts before fixing A to the wall. Secure each loaded A independently at both wall fixing points using fixings appropriate to the actual wall. The carrier has 4.6 mm through holes with 9.5 mm front head recesses. Hex edge connectors are for alignment, not a verified load path for the ship. No nail-only load capacity has been established.
+An M3 cross-bolt, washers and a locking nut retain the insert in the active socket. The upper receiver is 28 mm wide, the end receiver 24 mm wide. M3 x 40 mm is a nominal shared starting length; check the actual hardware stack, access and hull clearance. Tighten enough to retain the insert without crushing the printed socket. A round pin without positive retention is not a substitute.
+
+GLUING AND CHANGING ORIENTATION
+Glue ONLY the round peg into the ship, following adhesive compatibility and cure instructions for the actual materials. Leave the square stem and arm sockets unglued. Establish the ship's orientation with a dry fit before gluing; for level flight, the nose must point sideways along the wall. Support the ship during curing.
+To change display mode, support and remove the ship's weight, remove the M3 cross-bolt, withdraw the square stem, put it in the other socket, select the required 90-degree index, and reinstall the bolt. Do not rotate the loaded assembly in place. The second insert is a spare or can be glued into another ship.
+
+VERIFICATION AND LIMITS
+All individual meshes are watertight, winding-consistent, positive-volume, single connected solids. Both assembled insert positions were checked for unintended overlap; residual numerical intersection in the tilted position is below 0.001 cubic mm. See geometry_checks.json. These checks do not establish strength or fit after printing.
+A 600 g ship whose centre of gravity lies over the 130 mm peg axis produces about 0.765 N m about the decorative base front, before adding mount weight, offsets and handling loads. No physical load test, fatigue/creep test, adhesive test or slicer validation has been performed. The ship's actual centre of gravity and local strength around its hole are unknown. Verify the complete assembly over a padded surface before wall use. The cross-bolt retains the insert; the ship-to-insert joint still relies on adhesive.
