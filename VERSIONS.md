@@ -16,5 +16,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v10](../../tree/v10) | Flush plaque clips without upper latch | [files](outputs/v10) |
 | [v11](../../tree/v11) | Integrated rounded arm and hexagon | [files](outputs/v11) |
 | [v12](../../tree/v12) | Move plaque clips to lower corners | [files](outputs/v12) |
+| [v13](../../tree/v13) | Narrow clips and upper-right plaque latch | [files](outputs/v13) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
