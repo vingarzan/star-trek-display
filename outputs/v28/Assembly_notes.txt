@@ -1,0 +1,53 @@
+STAR TREK WALL DISPLAY — REVISION 28
+Units mm. Print at 100% scale. Physically untested prototypes.
+
+INTEGRATED SHIP MOUNT
+hex_ship_integrated_rounded_arm.stl is one piece. Its central base is a regular hexagon, aligned with the original outer frame and shifted 8.2 mm downward: 74 mm wide, 64.086 mm tall and 8 mm thick. All six base edges are parallel to corresponding outer frame edges. The flat underside and unrounded base outline are retained.
+Two 12 x 8 mm diagonal cross-braces meet the four sloping frame sides perpendicularly. The vertical brace is now 12 x 8 mm, matching both diagonal braces. All three frame braces are twice the 6 mm outer border width. The local nail-cap housing remains 18 mm wide to accommodate the recessed seat and cap. The nail seat is recessed again: 5 mm above the back, 3 mm below the front of the frame. The 14 x 12 mm pocket retains solid walls and a continuous connection to the vertical brace. The nail hole position and outline are unchanged.
+A removable hollow cap hides the head. It stands 2.4 mm above the frame when nominally seated and provides clearance for a centred head up to 9 mm diameter and 4 mm height above the seat. Check your actual hardware before use.
+Print nail_cover_cap.stl in its supplied orientation, flat roof down and hollow side up. Print fit_test_nail_cover.stl first and test the cap on it. Two slotted friction fingers have nominal 0.05 mm interference per side; retention and durability depend on printer and material. Do not force a tight fit. The cap is cosmetic and carries no ship load.
+After mounting, press the cap gently into the pocket. Use the small edge notch to lift it off for fastener access. No adhesive is needed.
+Rounded added-material transitions support the arm root, with the lower transition following the angled strengthening brace. The mount requires no arm-to-frame bolts.
+The upward socket axis is 130 mm beyond the frame front, 138 mm from the wall. Both removable peg inserts and M3 cross-bolt holes retain their previous positions. The end socket points outward and 5 degrees upward. Use the upward socket for belly-horizontal flight with the nose sideways.
+PEG INSERTS — REVISION 28
+Both inserts now have the SAME 10 x 10 x 11.6 mm square base and perpendicular 3.4 mm cross-bores centred 5.8 mm from the bottom. Their rounded transitions begin at the socket rim in the bolt-aligned position. Keep the M3 retaining bolt installed; the insert is not intended to be pushed to the bottom of the socket (0.6 mm bottom clearance).
+peg_insert_8mm.stl: unchanged 8 mm diameter shaft, 19 mm usable length, 3 mm-high curved transition; total height 33.6 mm.
+peg_insert_6mm.stl: 6 mm diameter shaft shortened from 11 to 10 mm; 2 mm radius rounded transition; total height 23.6 mm. The square base is shortened from 12.6 to 11.6 mm, matching the other insert. The round shaft starts at Z=13.6 mm rather than 14.6 mm. A nominal 12 mm-deep ship hole therefore has 2 mm axial clearance before reaching the rounded transition; actual contact depends on the entrance shape and print tolerances.
+The disk remains omitted. Glue only the round shaft into the ship and keep the square stem removable. Support the ship while removing its cross-bolt. The updated fit_test_peg_6.0mm.stl has the same 10 mm usable test shaft; it checks bore fit and depth but does not reproduce the rounded shoulder. Test the full insert before gluing.
+
+
+ORIGINAL FRAME AND NAIL ATTACHMENT
+The original outer perimeter and connectors remain unscaled, 210 x 185.865 mm in plan. The original nail geometry comes from obj_2_Inclined display with nail.stl. The ship frame has solid walls around the recessed seat and a continuous connection below it. The plaque and empty frames are unchanged.
+Only the original single nail tab is provided per frame. Its wall attachment and capacity for a 600 g cantilevered ship are not verified. Adjacent frame connectors do not establish load capacity.
+
+SNUG PLAQUE HOLDERS — CHOOSE MATCHING THICKNESS
+5.7 mm plate: hex_plaque_snug_5.7mm.stl + plaque_latch_snug_5.7mm.stl.
+4.7 mm plate: hex_plaque_snug_4.7mm.stl + plaque_latch_snug_4.7mm.stl.
+Each pair has 0.2 mm nominal front clearance: 5.9 mm and 4.9 mm gaps respectively, measured from the frame face to the retaining lip/latch underside. The former clips had 0.6 mm clearance and latch about 0.9 mm. The two sets share the same XY outline, clip positions and latch attachment.
+The 4.7 mm set assumes the same plaque rim shape and ornament clearance as the original plate, differing in thickness only. Its model check uses a thickness-scaled proxy, not a scan of the real 4.7 mm plate.
+Print fit_test_plate_gap_5.7mm.stl or fit_test_plate_gap_4.7mm.stl and check the actual plate before printing its frame. These check the gap, not the full emblem outline. Nominal clearance is not a guarantee of a snug print on every material/printer.
+The plaque stays flush against the frame. Its single emblem point faces up. Keep the selected latch removed while lowering the plaque into both lower clips, then fit the matching latch. It lifts off after removing its M3 screw; do not force the plaque past a closed latch.
+Use an M3 x 14 screw, or an M3 x 16 with about 2 mm washer thickness, for the shorter latches. Verify actual engagement and that the screw does not bottom out in the printed pilot hole. Tighten lightly. No plaque drilling is needed.
+
+PRINTING AND CHECKS
+The complete mount fits within 250 x 250 mm XY at approximately 166.8 mm height. No validated print profile or G-code is supplied. Inspect support access, orientation and layer direction in the slicer. Print peg, rim and original connector samples before full parts.
+All exported STLs were reloaded and verified as single watertight solids. Checks verify both peg insert clearances, unchanged outer frame geometry, the recessed seat and nominal cap clearance. The nail hole remains unobstructed; a 9 x 4 mm cylindrical head envelope clears the cap.
+These checks do not establish physical strength, long-term creep resistance or wall-fixing capacity. Test physical fit and the finished mount before using it with a ship.
+
+REVISION 28 BASE REDUCTION
+The smaller hexagon retains full material support beneath both rounded joint footprints, checked geometrically. Its plate area is reduced by 35.3%. Whole-mount solid volume savings: 10.29 cm3. Actual filament savings depend on slicer settings. The downward offset keeps material beneath the angled brace. Other parts and interfaces are unchanged. Physical strength remains untested.
+
+REVISION 28
+The central hexagon is shifted another 1.2 mm downward to preserve material beneath the rounded lower joint after narrowing the vertical brace. The recessed seat and cap are retained. All exported parts were verified as single watertight solids; physical fit and strength remain untested.
+
+REVISION 28 CHECKS
+Both new inserts clear both installed sockets geometrically. All exported meshes are single watertight solids. Frame, arm, plaque holder, latch and nail cap are unchanged from revision 24. Actual fit, retention and load capacity remain subject to print testing.
+
+REVISION 28 VALIDATION
+Both tapered inserts clear both sockets. Both holder/latch sets clear the seated reference or thickness proxy and the sampled removal paths. New clip and latch geometry stays inside the original hex outline. Exported meshes are watertight single solids. The ship frame and nail cap are unchanged. Physical fit and strength testing remain required, particularly given the reported peg breakage.
+
+REVISION 28 CHECKS
+Both rounded inserts clear both sockets. All exported parts are single watertight solids. Peg shaft diameters, usable lengths, installed positions and cross-bolt locations are unchanged. The snug 5.7 mm and 4.7 mm holder/latch sets remain from v26. Physical strength and print fit remain untested.
+
+REVISION 28 VALIDATION
+Both square base solids were compared and are identical. Both insert meshes clear both arm sockets in the bolt-aligned positions. Exported meshes remain single watertight solids. The 8 mm insert, arm, snug plaque sets and nail cap are otherwise unchanged. Physical fit and strength still require testing.
