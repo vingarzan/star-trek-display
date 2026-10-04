@@ -2,14 +2,16 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v25 — Disk-free 8 mm and 6 mm inserts; sort fit tests**.
+Current version: **v26 — Round tapered pegs and snug plaque holders for 5.7 mm and 4.7 mm plates**.
 
-- [Print files and previews](outputs/v25/)
+- [Print files and previews](outputs/v26/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v25.json)
+- [Artifact checksums](manifests/v26.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 
 The `outputs` tree preserves each available version and its original packaged ZIP when one was produced. `work` contains historical design scripts, and `source_models` contains the supplied reference meshes. Future versions are committed and pushed here as part of the design workflow.
 
 Current inserts: 8 mm diameter × 19 mm engagement and 6 mm diameter × 11 mm engagement for a 12 mm-deep hole. Both omit the overhanging disk and require the M3 retaining cross-bolt. All fit-test STLs start with `fit_test_`.
+
+Version 26 adds round conical peg transitions and two matched plaque-holder/latch sets with 0.2 mm nominal clearance. Print the matching gap sample first. The 4.7 mm set assumes the same plaque outline.

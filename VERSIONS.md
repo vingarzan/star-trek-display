@@ -30,4 +30,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v24](https://github.com/vingarzan/star-trek-display/tree/v24) | Uniform 12 mm frame braces | [files](outputs/v24) |
 | [v25](https://github.com/vingarzan/star-trek-display/tree/v25) | Disk-free 8 mm and 6 mm inserts; sort fit tests | [files](outputs/v25) |
 
+| [v26](https://github.com/vingarzan/star-trek-display/tree/v26) | Round conical peg transitions; snug 5.7 mm and 4.7 mm plaque sets | [files](outputs/v26) |
+
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.

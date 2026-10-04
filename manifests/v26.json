@@ -1,0 +1,36 @@
+{
+  "version": "v26",
+  "title": "Round conical peg transitions and snug 5.7 mm / 4.7 mm plaque sets",
+  "files": {
+    "outputs/v26/fit_test_peg_7.8mm.stl": "d094babc5f85e53689ce6b4afddae5ce397dcf07e1c3ea919aee1b2f2b5c6d96",
+    "outputs/v26/fit_test_original_joint_top.stl": "7afb984749baf341646b0df2faeef294e3022e7eb84939e3db1ce405aeaabefe",
+    "outputs/v26/plaque_latch_snug_4.7mm.stl": "1f9b16d15115a459f47f4f8070637b9fb306be132fe645ce8c2dfd9e2065ecd4",
+    "outputs/v26/fit_test_peg_7.9mm.stl": "209533e144d1fb363ca4bcf3287394bbcb118755dd6e26be091dbd1be1a43326",
+    "outputs/v26/geometry_checks.json": "5d144840555fdbecfd9488cd36cf7773b8839a18ad7cc438539742b72c69c115",
+    "outputs/v26/fit_test_peg_8.0mm.stl": "f3d5d28d382bc844921a1066065771ccb85becd114a11165c6682fccfd8735e2",
+    "outputs/v26/plaque_latch_snug_5.7mm.stl": "4807e9df37e7440b0553df445a8ff07433f7be095753a311dc09eb8d7b1b1649",
+    "outputs/v26/peg_insert_8mm.stl": "042d8d04b8aaae2da353b44267782d2d637df962370c9dcce2404821d83ce0d0",
+    "outputs/v26/Assembly_notes.txt": "cfe2af95ef668f982eee49698f1bc83b7daae8bf6a0bae316e8190f89256b82a",
+    "outputs/v26/hex_open_original_size.stl": "abb26a855aa343f0d2a15ad5c788a8fc15a3d1f42084b949bdf77e8d5755136c",
+    "outputs/v26/nail_cover_cap.stl": "4965e35396ab12024bb07713cc1610e7a06acb5c2acdee05f099c813a6ebe1ac",
+    "outputs/v26/tapered_pegs_preview.png": "621fa624ae066d63e2be002f55888c88a292e921f8ea6bd6d60367c80d9cab98",
+    "outputs/v26/hex_plaque_snug_5.7mm.stl": "97b70e9898ea68bf3136be280e8578e4ecc3c009c05b74dfeee986389f2d741c",
+    "outputs/v26/peg_insert_6mm.stl": "e3579e98214f515d04e037a328ff5403fc74b25d2590db7c69e95ed259730e1d",
+    "outputs/v26/hex_ship_integrated_rounded_arm.stl": "9ebc4908530787f25ff11cf1d3e1ed7d7fbbfdd7cc5a7410ba5c085d3507f44c",
+    "outputs/v26/hex_plaque_snug_4.7mm.stl": "a09541b37c2fa892f5561633658dc023ced92ea0e59d3c0684d3bf9ff59585f7",
+    "outputs/v26/fit_test_peg_7.7mm.stl": "06f006b8ec179600dc88c89d471ff6fc1f5a8d69bfba554b85965083686be757",
+    "outputs/v26/fit_test_nail_cover.stl": "10ba06933dd64f0060e28719e51b8be0fba10159efee3e072fa0266968251df6",
+    "outputs/v26/fit_test_original_joint_bottom.stl": "4410f20b223ff928c7db404bf4006f9c857ecbc8288782a6c109306cf213d468",
+    "outputs/v26/fit_test_plate_gap_4.7mm.stl": "5bb22506f38baf856b09a8ffd9a410b065ae79ac710688a35a0c83448422b8a1",
+    "outputs/v26/fit_test_socket.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
+    "outputs/v26/fit_test_plate_gap_5.7mm.stl": "dda10d6bafe1d9d0cc5ab50414590d9a2613eb48a3ffe16f84063c5e51d7c793",
+    "outputs/v26/fit_test_peg_6.0mm.stl": "59a98d696a9f61a689fbbf3b0f63a64ebb981f22a0666be6bf74c06ceb5bea15",
+    "outputs/Star_Trek_tapered_pegs_snug_plates_v26.zip": "9f7c3044aef9531725ed8b50a60275fa54d32a94f082eee68d850a3311d46a37"
+  },
+  "scripts": [
+    "build_v26.py",
+    "render_v26.py",
+    "package_v26.py"
+  ],
+  "reference_mesh": "work/v13_plaque.ply"
+}
