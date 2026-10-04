@@ -33,5 +33,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v26](https://github.com/vingarzan/star-trek-display/tree/v26) | Round conical peg transitions; snug 5.7 mm and 4.7 mm plaque sets | [files](outputs/v26) |
 | [v27](https://github.com/vingarzan/star-trek-display/tree/v27) | Curved peg transitions; 6 mm transition shortened to 2 mm | [files](outputs/v27) |
 | [v28](https://github.com/vingarzan/star-trek-display/tree/v28) | Identical square bases; 6 mm round shaft shortened to 10 mm | [files](outputs/v28) |
+| [v29](https://github.com/vingarzan/star-trek-display/tree/v29) | Snug stems; 0.15 mm nominal bottom gap; optional pin and fit samples | [files](outputs/v29) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
