@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v20 — Central hexagon and nail-tab bridge**.
+Current version: **v21 — Fill nail-adapter recess**.
 
-- [Print files and previews](outputs/v20/)
+- [Print files and previews](outputs/v21/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v20.json)
+- [Artifact checksums](manifests/v21.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 
