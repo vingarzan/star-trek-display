@@ -23,5 +23,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v17](../../tree/v17) | Rounded arm-root reinforcement | [files](outputs/v17) |
 | [v18](../../tree/v18) | Diagonal frame braces | [files](outputs/v18) |
 | [v19](../../tree/v19) | Match lower fillet to angled brace | [files](outputs/v19) |
+| [v20](../../tree/v20) | Central hexagon and nail-tab bridge | [files](outputs/v20) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.

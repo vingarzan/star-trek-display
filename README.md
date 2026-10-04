@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v19 — Match lower fillet to angled brace**.
+Current version: **v20 — Central hexagon and nail-tab bridge**.
 
-- [Print files and previews](outputs/v19/)
+- [Print files and previews](outputs/v20/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v19.json)
+- [Artifact checksums](manifests/v20.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 
