@@ -26,5 +26,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v20](../../tree/v20) | Central hexagon and nail-tab bridge | [files](outputs/v20) |
 | [v21](../../tree/v21) | Fill nail-adapter recess | [files](outputs/v21) |
 | [v22](../../tree/v22) | Smaller central hexagon | [files](outputs/v22) |
+| [v23](../../tree/v23) | Recessed nail seat and removable cap | [files](outputs/v23) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
