@@ -1,0 +1,10 @@
+exec(open('work/render.py').read().split("draw(fig.add_subplot(131")[0].replace("A=t.load('outputs/A_hex_carrier.stl');B=t.load('outputs/B_arm_5deg_up.stl');scene=t.load('work/assembly.glb')", ""))
+plt.close(fig);fig=plt.figure(figsize=(15,10),facecolor='#f3f5f7')
+ship=t.load('outputs/v6/hex_ship_original_size.stl');middle=t.load('outputs/v6/hex_open_original_size.stl');middle.apply_translation([0,-181.86534,0]);plaque=t.load('outputs/v6/hex_plaque_upright_original_size.stl');plaque.apply_translation([157.5,-272.79801,0]);base=t.load('work/v6_upright_plaque.stl');base.apply_translation([157.5,-272.79801,0]);arm=t.load('outputs/v6/B_dual_socket_arm_130mm.stl');arm.apply_translation([0,0,8]);original=t.load('source_models/obj_1_Inclined display.stl');original.apply_translation([-128-157.5,-126+90.93267,0])
+ax=fig.add_subplot(121,projection='3d');draw(ax,[original,ship,middle,plaque,base,arm],['#bac7d0','#319aa1','#319aa1','#319aa1','#a6b7c3','#d88b36'],'Original-size, compatible hexagons\nGrey hexagon = original fighter-display reference',[(-280,285),(-435,205),(0,200)],90,-90)
+# Right: upright plaque only, to make the requested pin orientation unambiguous.
+base2=t.load('work/v6_upright_plaque.stl');h=t.load('outputs/v6/hex_plaque_upright_original_size.stl');ax2=fig.add_subplot(122,projection='3d');draw(ax2,[h,base2],['#319aa1','#a6b7c3'],'Plaque rotated into communicator-pin orientation\nOne point up · two points down',[(-140,140),(-170,145),(0,70)],90,-90)
+fig.suptitle('Revision 6 — original hexagon connections, upright plaque',fontsize=22,y=.95)
+fig.text(.5,.077,'Original 210 × 185.87 mm footprint · original outer frame and connectors retained at 100% scale',ha='center',fontsize=12,color='#385563')
+fig.text(.5,.04,'The decorative plaque remains on a separate hexagon below-right. It overhangs the small frame; leave neighbouring space clear.',ha='center',fontsize=11,color='#385563')
+plt.subplots_adjust(left=.01,right=.99,bottom=.12,top=.83,wspace=.04);plt.savefig('outputs/v6/system_preview.png',dpi=155,facecolor=fig.get_facecolor())

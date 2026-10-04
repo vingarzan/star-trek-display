@@ -1,0 +1,52 @@
+STAR TREK DISPLAY — REVISION 6
+Original-size hexagons + upright communicator-style plaque.
+Units mm. Print at 100% scale. Physically untested prototype.
+
+ORIGINAL FIGHTER-DISPLAY COMPATIBILITY
+The original frame component was extracted directly from obj_1_Inclined display.stl, translated to a local origin, and retained at its ORIGINAL scale. New reinforcement is confined to an inner hexagonal region. The original outer frame band and edge connector geometry are preserved, rather than redrawn or enlarged.
+All three new hexagons measure 210 x 185.865 x 8 mm. They are intended to mesh with the user's existing original-size fighter-plane hexagons, assuming those were also printed at 100% scale. Physical printer/material tolerances still need checking.
+Numerical comparison found less than 0.00002 cubic mm difference in the protected outer band. Fit with the source frame was checked above, upper-right and lower-right, with only sub-0.001 cubic mm numerical residual overlap.
+Print original_joint_test_top.stl and original_joint_test_bottom.stl first and check their original-size connectors against existing prints. They are cropped reference edge samples, not complete mounting frames.
+
+FILES
+hex_ship_original_size.stl: reinforced hub for direct mounting of the dual-socket ship arm.
+hex_plaque_upright_original_size.stl: original-size frame with the two plaque attachment holes rotated to hold the decorative base upright.
+hex_open_original_size.stl: connecting frame with a fixing spine; no aircraft or ship peg. Use as many as needed for spacing.
+B_dual_socket_arm_130mm.stl: unchanged long braced arm, two sockets, 80 x 80 x 158.99 mm.
+peg_insert_1.stl / peg_insert_2.stl: identical removable inserts, 7.8 mm round peg projecting 19 mm, square stem for 90-degree indexing.
+socket_fit_test.stl and peg_fit_7.7mm / 7.8mm / 7.9mm.stl: fit samples.
+plaque_drilling_template.stl: original straight template for the two source-base holes 80 mm apart. It must follow the rotated plaque orientation when used with the new frame; do not assume its holes stay horizontal on the wall.
+
+PLAQUE ORIENTATION
+The source STL's lone protruding corner was at the lower right. The plaque is now rotated 125.044 degrees counterclockwise when viewed from the front, putting that single point up and the two other corners down, like a communicator pin. The decorative base remains vertical against the wall, on a separate hexagon below/right of the ship. Its old upright stand arm is removed.
+The plaque's mounting frame preserves the same two chosen holes in the existing base. If drilled previously at those locations, no new plaque holes are required: the hexagon's attachment pattern has been rotated to match.
+The source-STL hole coordinates remain (93.912,121.999) and (173.912,121.999). Those are source coordinates before rotating the decorative base, not wall coordinates. They lie in flat 5.7 mm thick material, including the checked 10 mm diameter bearing area around each.
+On the new plaque hexagon, the two M4 bolt centres are approximately (6.594,-64.233) and (-39.343,1.264), relative to the local hex centre. The plaque reference centre sits 20 mm below the hex centre. Its mounting height is fixed in this revision; spacing is adjusted by placing the hexagon elsewhere in the grid.
+Dry-align the real plaque to the preview and new frame before marking or drilling. If not already drilled, use the measured source coordinates and template, or transfer the two actual mounting centres from the back of the aligned frame. Do not drill a new horizontal pair on the upright badge. Insert the two M4 nuts into the frame rear first, and choose screws for the actual frame + plaque + washers thickness without rear protrusion into the wall.
+The plaque is larger than one original hexagon and overhangs it, particularly below. Leave the surrounding area clear; connector compatibility does not mean an occupied neighbouring tile or model will clear the plaque.
+
+EXAMPLE GRID LAYOUT
+The original hex geometry uses 181.86534 mm vertical centre spacing. Diagonal neighbours are displaced 157.5 mm horizontally and 90.93267 mm vertically.
+Example from the preview:
+- ship hex centre: (0,0)
+- connecting hex centre: (0,-181.86534)
+- plaque hex centre: (157.5,-272.79801)
+- grey original fighter-display reference: (-157.5,90.93267)
+The grey reference is shown for compatibility context and is not included as a new printable file. Add more empty/connecting hexagons if the actual ship, plaque or existing aircraft requires more separation. No ship hull file was provided, so real-object clearance remains unverified.
+
+WALL FIXINGS
+The ORIGINAL EDGE CONNECTIONS are retained; the new interior fixing holes differ from the original design.
+Two added nail keyholes have neck centres at (-15,+65) and (+15,-65). Each has an 8 mm head-entry circle, 3.5 mm neck, and 6 mm downward seating motion. They are staggered, not on one vertical line. Verify that actual nail heads pass through the entries and are retained by the necks.
+Separate screw holes are at (-15,+49) and (+15,-49), with 4.6 mm through holes and 9.5 mm front head recesses.
+Choose fixings suitable for the wall and load. Each loaded hexagon should be independently fixed; original edge connectors are not a verified load path for the 600 g ship. Nail compatibility dimensions do not establish holding capacity in the user's wall.
+Assemble and fit unloaded sections first. Connected frames may need to be hung/lowered together when using keyholes; do not force an individual connected frame to slide against its neighbours. Fix the plaque hex to the wall before attaching the plaque, which can cover access to its fixings.
+
+SHIP ARM AND INSERTS
+Bolt B directly to the ship hex using four M4 screws and captive nuts on the unchanged 56 x 56 mm square pattern. There is NO decorative plate between B and the ship hex. Select screw length for the actual 16 mm frame/flange stack, any washers and nut engagement, without protruding against the wall. Earlier screws for the thicker sandwich may be too long.
+The upward peg axis is 130 mm beyond the ship hex FRONT, approximately 138 mm from the wall when the 8 mm frame is flush. This is the current clearance reference after separating the plaque. It is not 130 mm beyond the separate plaque's surface.
+Use the top socket for level flight, with nose sideways along the wall and belly parallel to the floor, assuming the hole is perpendicular to the belly. The end socket points outward with 5 degrees of upward tilt for the other display plane.
+Glue ONLY the round peg into the ship, following adhesive compatibility and full cure requirements. Leave the square stem removable. Support the ship, remove the M3 cross-bolt, withdraw the insert, move it to the desired socket, choose a 90-degree index and refit the bolt. Do not reposition under load. A cross-bolt, washers and locking nut retain the insert; check nominal M3 x 40 mm against actual hardware, printed dimensions and hull access, and do not crush the socket.
+
+VERIFICATION
+All delivered meshes passed watertightness, winding, positive-volume and connected-solid checks. They fit within the user's 250 x 250 mm XY print envelope. Source perimeter comparison and adjacent-original-frame fit checks are recorded in geometry_checks.json.
+No physical printing, slicer profile, strength/creep test, adhesive test or wall-fixing test has been completed. A 600 g ship with its centre of gravity over the top peg would produce about 0.81 N m about the wall, before arm weight and handling loads. Test the complete installation over a padded surface before use. Confirm fit samples first; do not globally rescale the parts to fix one mating tolerance.

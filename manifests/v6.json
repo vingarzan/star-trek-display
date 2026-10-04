@@ -1,0 +1,28 @@
+{
+  "version": "v6",
+  "title": "Original-size interlocking hexagons",
+  "imported_from_saved_artifacts": true,
+  "files": {
+    "outputs/v6/Assembly_notes.txt": "7c6428194f5b23a60158ae987eca45a1cc938316889fc283413b51a90975743c",
+    "outputs/v6/B_dual_socket_arm_130mm.stl": "0a8cc457e157ce534ae0a4e53b396c807e042434dc1b9f2e3f11aeccfbf9af0e",
+    "outputs/v6/geometry_checks.json": "fdcbd029e9da1f619ae0c3ae829c8247981b81e427377b0a98c03be941f9ce6a",
+    "outputs/v6/hex_open_original_size.stl": "d55e77aa70d0eee1b9168f7d99a7feb4dee03e0b8ace7c62885ed61335782389",
+    "outputs/v6/hex_plaque_upright_original_size.stl": "3dc03bc564e1a45709affbd2eb5a51498d83e9db329c1d6ae47f16ba8b6ccdd7",
+    "outputs/v6/hex_ship_original_size.stl": "b8ccbbcbcc1389ad83e3df6eec8fb0245e07c6523de8a45a96516afabdd41e76",
+    "outputs/v6/original_joint_test_bottom.stl": "4410f20b223ff928c7db404bf4006f9c857ecbc8288782a6c109306cf213d468",
+    "outputs/v6/original_joint_test_top.stl": "7afb984749baf341646b0df2faeef294e3022e7eb84939e3db1ce405aeaabefe",
+    "outputs/v6/peg_fit_7.7mm.stl": "06f006b8ec179600dc88c89d471ff6fc1f5a8d69bfba554b85965083686be757",
+    "outputs/v6/peg_fit_7.8mm.stl": "d094babc5f85e53689ce6b4afddae5ce397dcf07e1c3ea919aee1b2f2b5c6d96",
+    "outputs/v6/peg_fit_7.9mm.stl": "209533e144d1fb363ca4bcf3287394bbcb118755dd6e26be091dbd1be1a43326",
+    "outputs/v6/peg_insert_1.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v6/peg_insert_2.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v6/plaque_drilling_template.stl": "7650204173e51f22e5abd0d8923f2509301512877c3d140d707bb5f04422dba8",
+    "outputs/v6/socket_fit_test.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
+    "outputs/v6/system_preview.png": "27a5acc20e22e43d8a6a6b240cde33a565d0773dc7a1b68bd464c52ac9d11aab",
+    "outputs/Star_Trek_original_hex_display_v6.zip": "8b85695ad447be906c17a74a968e8bf035db297de0b93bf11199c9117e74b004"
+  },
+  "scripts": [
+    "render_v6.py",
+    "build_v6.py"
+  ]
+}

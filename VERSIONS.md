@@ -9,5 +9,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v3](../../tree/v3) | Dual sockets and 130 mm level-flight arm | [files](outputs/v3) |
 | [v4](../../tree/v4) | Separate decorative plaque hanger | [files](outputs/v4) |
 | [v5](../../tree/v5) | Modular square tile layout | [files](outputs/v5) |
+| [v6](../../tree/v6) | Original-size interlocking hexagons | [files](outputs/v6) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
