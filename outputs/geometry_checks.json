@@ -70,13 +70,20 @@
       14,
       12
     ],
-    "cap_proud_of_frame_mm": 2.4,
+    "cap_proud_of_frame_mm": 0,
+    "cap_total_height_mm": 3,
+    "cap_roof_thickness_mm": 0.8,
+    "cap_skirt_xy_mm": [
+      13.9,
+      11.9
+    ],
     "head_envelope_diameter_mm": 9,
-    "head_envelope_height_mm": 4,
-    "cap_side_clearance_mm": 0.2,
-    "grip_nib_interference_each_side_mm": 0.05,
+    "head_envelope_height_mm": 2,
+    "cap_side_clearance_mm": 0.05,
+    "grip_nib_interference_each_side_mm": 0.15,
     "nominal_cap_overlap_mm3": 0.0,
-    "retention": "two flexible friction fingers; physical fit untested"
+    "intentional_grip_overlap_mm3": 0.3037500643729345,
+    "retention": "slotted friction fingers; physical fit untested"
   },
   "base_reduction": {
     "previous_width_mm": 92,
@@ -89,14 +96,14 @@
   },
   "nail_cover_cap": {
     "dimensions_mm": [
-      14.100000381469727,
-      11.600006103515625,
-      5.199999904632563
+      14.300000190734863,
+      11.899993896484375,
+      3.0
     ],
+    "volume_cm3": 0.21260368021203171,
     "watertight": true,
     "components": 1,
-    "export_reload_verified": true,
-    "volume_cm3": 0.34882400277615105
+    "export_reload_verified": true
   },
   "brace_width_rule": {
     "outer_border_mm": 6,
@@ -121,10 +128,10 @@
       16.0,
       8.0
     ],
+    "volume_cm3": 1.69417483935044,
     "watertight": true,
     "components": 1,
-    "export_reload_verified": true,
-    "volume_cm3": 1.693984719623345
+    "export_reload_verified": true
   },
   "fit_test_original_joint_top": {
     "dimensions_mm": [

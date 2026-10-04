@@ -1,11 +1,11 @@
-STAR TREK WALL DISPLAY — REVISION 40
+STAR TREK WALL DISPLAY — REVISION 41
 Units mm. Print at 100% scale. Physically untested prototypes.
 
 INTEGRATED SHIP MOUNT
 hex_ship_integrated_rounded_arm.stl is one piece. Its central base is a regular hexagon, aligned with the original outer frame and shifted 8.2 mm downward: 74 mm wide, 64.086 mm tall and 8 mm thick. All six base edges are parallel to corresponding outer frame edges. The flat underside and unrounded base outline are retained.
 Two 12 x 8 mm diagonal cross-braces meet the four sloping frame sides perpendicularly. The vertical brace is now 12 x 8 mm, matching both diagonal braces. All three frame braces are twice the 6 mm outer border width. The local nail-cap housing remains 18 mm wide to accommodate the recessed seat and cap. The nail seat is recessed again: 5 mm above the back, 3 mm below the front of the frame. The 14 x 12 mm pocket retains solid walls and a continuous connection to the vertical brace. The nail hole position and outline are unchanged.
-A removable hollow cap hides the head. It stands 2.4 mm above the frame when nominally seated and provides clearance for a centred head up to 9 mm diameter and 4 mm height above the seat. Check your actual hardware before use.
-Print nail_cover_cap.stl in its supplied orientation, flat roof down and hollow side up. Print fit_test_nail_cover.stl first and test the cap on it. Two slotted friction fingers have nominal 0.05 mm interference per side; retention and durability depend on printer and material. Do not force a tight fit. The cap is cosmetic and carries no ship load.
+A removable hollow cap hides the head. Its overall height is 3 mm, so its top is flush with the frame when seated on the recess floor. It provides clearance for a centred head up to 9 mm diameter and 2 mm height above the seat. The roof is 0.8 mm thick, leaving 0.2 mm clearance above that head. Check your actual hardware before use.
+Print nail_cover_cap.stl in its supplied orientation, flat roof down and hollow side up. Print fit_test_nail_cover.stl first and test the cap on it. The skirt is 13.9 x 11.9 mm, leaving 0.05 mm per side in the 14 x 12 mm recess. Two slotted friction fingers have nominal 0.15 mm interference per side; retention and durability depend on printer and material. Do not force a tight fit. The cap is cosmetic and carries no ship load.
 After mounting, press the cap gently into the pocket. Use the small edge notch to lift it off for fastener access. No adhesive is needed.
 Rounded added-material transitions support the arm root, with the lower transition following the angled strengthening brace. The mount requires no arm-to-frame bolts.
 The upward socket axis is 130 mm beyond the frame front, 138 mm from the wall. Both removable peg inserts and M3 cross-bolt holes retain their previous positions. The end socket points outward and 5 degrees upward. Use the upward socket for belly-horizontal flight with the nose sideways.

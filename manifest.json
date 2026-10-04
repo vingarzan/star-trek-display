@@ -1,15 +1,15 @@
 {
-  "version": "v40",
-  "title": "Intermediate Galaxy screw holes for M2.5 fit",
+  "version": "v41",
+  "title": "Flush nail cover with wider skirt and snug grip",
   "files": {
-    "outputs/Assembly_notes.txt": "9855e00cf0339d481247af1aa54405ea6a04ffe7101cc3cd5f7f45dc89823cc2",
+    "outputs/Assembly_notes.txt": "127cf5458ce9b249e846b6aa544fbed40d5b30e9099237a0a85a862e46484516",
     "outputs/corner_braced_arm_preview.png": "411cbd843a6dac1742e1cc30965ab3ce7bd883226479251f3eecff14f99ac355",
     "outputs/empty_hex_preview.png": "72cad53b746afad095d1f85098271e5b5f0baa70292105c5a9dd1304f942cda0",
     "outputs/filled_title_notch_preview.png": "f1b6d57acc385a53ad38cd154d99f02549d94f04094bec3bbd70ec2672f29269",
     "outputs/fit_test_arm_stem_10.2mm.stl": "9eb6124f5c385ff92ee14ed221f7f20aa8df85b81a7705f35b98be1f8e6a230d",
     "outputs/fit_test_arm_stem_10.3mm.stl": "1b6b9b8b416ead5db120870a49ddabd5445d48419fc89916caaacd1c7b3f61f8",
     "outputs/fit_test_arm_stem_10.4mm.stl": "f0075d64633dc2a71cb1cbb1ba11b59623d1a72236b386a072b545d727bdedf7",
-    "outputs/fit_test_nail_cover.stl": "10ba06933dd64f0060e28719e51b8be0fba10159efee3e072fa0266968251df6",
+    "outputs/fit_test_nail_cover.stl": "40e8fcb97b986bfc1be7d12b0e61f743ed63ae4b4c3351492e4ad75dc40dbbf3",
     "outputs/fit_test_original_joint_bottom.stl": "4410f20b223ff928c7db404bf4006f9c857ecbc8288782a6c109306cf213d468",
     "outputs/fit_test_original_joint_top.stl": "7afb984749baf341646b0df2faeef294e3022e7eb84939e3db1ce405aeaabefe",
     "outputs/fit_test_peg_6.0mm.stl": "a88370ba797c61c8692d8ebbefd425f57f5f187ead49f9723e8708ec8f10ab65",
@@ -21,7 +21,7 @@
     "outputs/fit_test_plate_gap_5.7mm.stl": "dda10d6bafe1d9d0cc5ab50414590d9a2613eb48a3ffe16f84063c5e51d7c793",
     "outputs/fit_test_socket.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
     "outputs/galaxy_holder_preview.png": "4ccc1a34b91eff8f0c3006fc7ac9030edb1f9f3eb5795703ef5dda7fa84ffc84",
-    "outputs/geometry_checks.json": "1eef1075e550d9cafd10cb57307bdca54d15bd458b3711e67982e615fc37bf36",
+    "outputs/geometry_checks.json": "58719db8444187b80cee3af3992b5e3910b660bbaf4afda79079e4ef9e7cd2ab",
     "outputs/hex_empty_original_size.stl": "5ff48d05b8aa9bf49b46d5ef1bca7313a300520656d0cfb1cbb21916d5b77a2d",
     "outputs/hex_open_original_size.stl": "7511543714909d4e04e7a10f7386ea80afa49f1654cef154b4be33c33f683e86",
     "outputs/hex_plaque_galaxy_4.7mm.stl": "ee3232bfe8889ecb46a38fff0affb2932fe7aeb6b90dfc9b6f7c9a5a2d1d3510",
@@ -31,7 +31,8 @@
     "outputs/hex_ship_corner_braced_light_arm.stl": "e360961885250f8367b42bd0c066ec9af014a481a64dc9b364fd9ce9012f3150",
     "outputs/hex_ship_integrated_rounded_arm.stl": "a07902127f6c0aef1968193ee611df71118f6c70ddd8e5698fef6a13d44bb4cc",
     "outputs/light_arm_preview.png": "5de9ad0a40439f60c4275a139ffdd8c9133d81ac5d4032874fc6f55d5ab036b8",
-    "outputs/nail_cover_cap.stl": "4965e35396ab12024bb07713cc1610e7a06acb5c2acdee05f099c813a6ebe1ac",
+    "outputs/nail_cover_cap.stl": "bca9dd42c8ed15688f554090d04606bb4b43a39be7542051ec1c8a6f87d4a816",
+    "outputs/nail_cover_preview.png": "9535de756b9ff02fd7ed11be365282a5122831882a4d3a8d2ce5574adbfec19a",
     "outputs/peg_insert_6mm.stl": "4638a71121cbff55ccc7cecdb759c375a8f97731158e706bc799f5273f308a94",
     "outputs/peg_insert_8mm.stl": "bfc3386f88a0837e91b90533baec4e597b8eaf29f4a001c89644eea1bb9bb6e2",
     "outputs/plaque_latch_snug_4.7mm.stl": "1f9b16d15115a459f47f4f8070637b9fb306be132fe645ce8c2dfd9e2065ecd4",
@@ -47,6 +48,7 @@
     "build_corner_arm.py",
     "fill_title_notches.py",
     "build_galaxy_holder.py",
-    "build_light_arm.py"
+    "build_light_arm.py",
+    "build_nail_cover.py"
   ]
 }
