@@ -1,8 +1,9 @@
 {
-  "version": "v30",
-  "title": "Empty original-size hexagon without nail tab or internal supports",
+  "version": "v31",
+  "title": "Parallel integrated arm with corner-to-corner braces",
   "files": {
-    "outputs/Assembly_notes.txt": "722e64a1032c48dde45234d1dfe411b42a514bda755841cb254f0fcd1c281f2f",
+    "outputs/Assembly_notes.txt": "dafb2ba034fa7b0d17fcc1924eee1c405582d34b2941efa0543119b8ac9d9e37",
+    "outputs/corner_braced_arm_preview.png": "e0b666429d72666ea44cc254289b1eba62c6f21dac67eb45a7d57289c4076bf4",
     "outputs/empty_hex_preview.png": "72cad53b746afad095d1f85098271e5b5f0baa70292105c5a9dd1304f942cda0",
     "outputs/fit_test_arm_stem_10.2mm.stl": "9eb6124f5c385ff92ee14ed221f7f20aa8df85b81a7705f35b98be1f8e6a230d",
     "outputs/fit_test_arm_stem_10.3mm.stl": "1b6b9b8b416ead5db120870a49ddabd5445d48419fc89916caaacd1c7b3f61f8",
@@ -18,11 +19,12 @@
     "outputs/fit_test_plate_gap_4.7mm.stl": "5bb22506f38baf856b09a8ffd9a410b065ae79ac710688a35a0c83448422b8a1",
     "outputs/fit_test_plate_gap_5.7mm.stl": "dda10d6bafe1d9d0cc5ab50414590d9a2613eb48a3ffe16f84063c5e51d7c793",
     "outputs/fit_test_socket.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
-    "outputs/geometry_checks.json": "96a05fb24943096256114d8141d650abc9500cf61e8da41decc1e9d4fe3c14b1",
+    "outputs/geometry_checks.json": "2dcbb33d8d7c5503912062368435585db572db39faa96f218884bc18743d20d4",
     "outputs/hex_empty_original_size.stl": "d04381ebb383554239040f173febc936d9a7a1d36942f1f802a33bbee79b4597",
     "outputs/hex_open_original_size.stl": "abb26a855aa343f0d2a15ad5c788a8fc15a3d1f42084b949bdf77e8d5755136c",
     "outputs/hex_plaque_snug_4.7mm.stl": "a09541b37c2fa892f5561633658dc023ced92ea0e59d3c0684d3bf9ff59585f7",
     "outputs/hex_plaque_snug_5.7mm.stl": "97b70e9898ea68bf3136be280e8578e4ecc3c009c05b74dfeee986389f2d741c",
+    "outputs/hex_ship_corner_braced_arm.stl": "805d5a87c714ee300164b40af97248bc947f77aa08de8081cfdf969687493f91",
     "outputs/hex_ship_integrated_rounded_arm.stl": "9ebc4908530787f25ff11cf1d3e1ed7d7fbbfdd7cc5a7410ba5c085d3507f44c",
     "outputs/nail_cover_cap.stl": "4965e35396ab12024bb07713cc1610e7a06acb5c2acdee05f099c813a6ebe1ac",
     "outputs/peg_insert_6mm.stl": "4638a71121cbff55ccc7cecdb759c375a8f97731158e706bc799f5273f308a94",
@@ -35,6 +37,7 @@
     "build.py",
     "render_pegs.py",
     "package.py",
-    "build_empty_hex.py"
+    "build_empty_hex.py",
+    "build_corner_arm.py"
   ]
 }

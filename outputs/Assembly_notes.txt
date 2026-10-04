@@ -1,4 +1,4 @@
-STAR TREK WALL DISPLAY — REVISION 30
+STAR TREK WALL DISPLAY — REVISION 31
 Units mm. Print at 100% scale. Physically untested prototypes.
 
 INTEGRATED SHIP MOUNT
@@ -58,3 +58,6 @@ Identical lower stems verified by solid comparison. Both socket positions have 0
 
 EMPTY HEXAGON
 hex_empty_original_size.stl: original 210 x 185.865 x 8 mm outer border and connectors, with no nail tab, arm or internal supports. Print flat at 100% scale. The existing hex_open_original_size.stl retains its nail tab.
+
+CORNER-BRACED ARM ALTERNATIVE
+hex_ship_corner_braced_arm.stl is an additional option, with three 12 x 8 mm braces along opposite-corner axes (0, 60 and 120 degrees). The upper vertical connection to the nail mount remains. The central base, arm, sockets, root fillets, outer connectors and nail mount retain their current geometry. Use the same pegs and nail cap. The original side-braced arm remains available. Geometry checks establish a single watertight solid, not physical load capacity.

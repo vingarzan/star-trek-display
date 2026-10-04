@@ -1,6 +1,6 @@
 # Star Trek wall display
 
-Current design: **v30 — empty original-size hexagon added**.
+Current design: **v31 — alternative arm mount with corner-to-corner braces**.
 
 - [Latest print files, notes and previews](outputs/)
 - [Geometry checks](outputs/geometry_checks.json)
@@ -8,6 +8,8 @@ Current design: **v30 — empty original-size hexagon added**.
 - [Artifact checksums](manifest.json)
 
 Only the latest version files are kept on main. ZIP files are not tracked. Earlier designs remain accessible through Git commits and version tags.
+
+The [corner-braced arm mount](outputs/hex_ship_corner_braced_arm.stl) is a parallel option to the original side-braced arm mount. Three 12 × 8 mm braces connect opposite corners; the upper nail support remains. The arm, peg sockets, central base, nail recess and outer connectors are preserved. See the [preview](outputs/corner_braced_arm_preview.png). Geometry is checked; physical strength has not been tested.
 
 An additional [empty hexagon](outputs/hex_empty_original_size.stl) preserves the original 210 × 185.865 × 8 mm frame and interlocking connectors, with no nail tab or internal supports. Print flat at 100% scale. The existing open frame with nail tab remains available.
 

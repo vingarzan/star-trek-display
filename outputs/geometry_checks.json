@@ -391,5 +391,27 @@
     ],
     "inner_opening_empty": true,
     "nail_tab": false
+  },
+  "hex_ship_corner_braced_arm": {
+    "dimensions_mm": [
+      210.0,
+      185.86534881591797,
+      166.77334594726562
+    ],
+    "volume_cm3": 235.11905062059228,
+    "watertight": true,
+    "components": 1,
+    "export_reload_verified": true,
+    "brace_width_mm": 12,
+    "brace_thickness_mm": 8,
+    "diametric_brace_angles_degrees": [
+      0,
+      60,
+      120
+    ],
+    "upper_nail_support_retained": true,
+    "arm_above_frame_difference_mm3": 0.0,
+    "outer_border_difference_mm3": 0.0009756248261207172,
+    "nail_mount_difference_mm3": 0.00036631185269773623
   }
 }

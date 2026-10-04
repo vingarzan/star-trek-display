@@ -38,3 +38,5 @@ These commits import the saved design iterations in order. Commit dates reflect 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
 
 | [v30](https://github.com/vingarzan/star-trek-display/tree/v30) | Add empty original-size hexagon without nail tab or internal supports | [files](https://github.com/vingarzan/star-trek-display/tree/v30/outputs/) |
+
+| [v31](https://github.com/vingarzan/star-trek-display/tree/v31) | Add parallel integrated arm variant with corner-to-corner braces | [files](https://github.com/vingarzan/star-trek-display/tree/v31/outputs/) |
