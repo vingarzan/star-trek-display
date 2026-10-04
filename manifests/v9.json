@@ -1,0 +1,25 @@
+{
+  "version": "v9",
+  "title": "Original nail tab and simplified frames",
+  "imported_from_saved_artifacts": true,
+  "files": {
+    "outputs/v9/B_dual_socket_arm_130mm.stl": "0a8cc457e157ce534ae0a4e53b396c807e042434dc1b9f2e3f11aeccfbf9af0e",
+    "outputs/v9/geometry_checks.json": "358267b9373ae14585a0782621aa8006d9995b11bc3dc5637ac864a398dca783",
+    "outputs/v9/hex_open_original_size.stl": "abb26a855aa343f0d2a15ad5c788a8fc15a3d1f42084b949bdf77e8d5755136c",
+    "outputs/v9/hex_plaque_clip_cradle.stl": "1ab9b3e3b58e357d7af1aaad311547ab0ade585ae773ea03c75351e3f185fb6f",
+    "outputs/v9/hex_ship_original_size.stl": "136252102cedc2ef7b4e010c93cc20c6a7c3ba8bba8eaef97cc0352ddcb1f1fe",
+    "outputs/v9/original_joint_test_bottom.stl": "4410f20b223ff928c7db404bf4006f9c857ecbc8288782a6c109306cf213d468",
+    "outputs/v9/original_joint_test_top.stl": "7afb984749baf341646b0df2faeef294e3022e7eb84939e3db1ce405aeaabefe",
+    "outputs/v9/peg_fit_7.7mm.stl": "06f006b8ec179600dc88c89d471ff6fc1f5a8d69bfba554b85965083686be757",
+    "outputs/v9/peg_fit_7.8mm.stl": "d094babc5f85e53689ce6b4afddae5ce397dcf07e1c3ea919aee1b2f2b5c6d96",
+    "outputs/v9/peg_fit_7.9mm.stl": "209533e144d1fb363ca4bcf3287394bbcb118755dd6e26be091dbd1be1a43326",
+    "outputs/v9/peg_insert_1.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v9/peg_insert_2.stl": "691e519c792992bdd9bfa70e4ae8e7aa0a0f7412c11aa01da327a870dce7afef",
+    "outputs/v9/plaque_side_keeper.stl": "3fe51ee36f4549dfb8127530f0f71c7a9535ae01c99866758ee6f450077892b4",
+    "outputs/v9/rim_clip_fit_test.stl": "5791178027b33f397520ed055cef9f2f9a0a7466e1aac5eb267a2e3782cc7bc6",
+    "outputs/v9/socket_fit_test.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e"
+  },
+  "scripts": [
+    "build_v9.py"
+  ]
+}

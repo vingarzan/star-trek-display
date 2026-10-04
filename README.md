@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v8 — Raise plaque and refine clip placement**.
+Current version: **v9 — Original nail tab and simplified frames**.
 
-- [Print files and previews](outputs/v8/)
+- [Print files and previews](outputs/v9/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v8.json)
+- [Artifact checksums](manifests/v9.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 

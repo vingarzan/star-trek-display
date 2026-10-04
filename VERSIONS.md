@@ -12,5 +12,6 @@ These commits import the saved design iterations in order. Commit dates reflect 
 | [v6](../../tree/v6) | Original-size interlocking hexagons | [files](outputs/v6) |
 | [v7](../../tree/v7) | No-drill decorative plaque clips | [files](outputs/v7) |
 | [v8](../../tree/v8) | Raise plaque and refine clip placement | [files](outputs/v8) |
+| [v9](../../tree/v9) | Original nail tab and simplified frames | [files](outputs/v9) |
 
 v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks but no standalone notes or preview. No missing historical files were fabricated.
