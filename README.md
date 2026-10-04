@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v18 — Diagonal frame braces**.
+Current version: **v19 — Match lower fillet to angled brace**.
 
-- [Print files and previews](outputs/v18/)
+- [Print files and previews](outputs/v19/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v18.json)
+- [Artifact checksums](manifests/v19.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 
