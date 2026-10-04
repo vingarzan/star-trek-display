@@ -1,0 +1,35 @@
+{
+  "A_hex_carrier": {
+    "dimensions_mm": [
+      210.0,
+      185.86534881591797,
+      8.0
+    ],
+    "watertight": true,
+    "positive_volume": true,
+    "components": 1,
+    "volume_cm3": 111.77751399288034
+  },
+  "B_arm_5deg_up": {
+    "dimensions_mm": [
+      80.0,
+      80.0,
+      79.06973266601562
+    ],
+    "watertight": true,
+    "positive_volume": true,
+    "components": 1,
+    "volume_cm3": 78.93042532190879
+  },
+  "drilling_template": {
+    "dimensions_mm": [
+      80.0,
+      80.0,
+      2.0
+    ],
+    "watertight": true,
+    "positive_volume": true,
+    "components": 1,
+    "volume_cm3": 12.692479120091038
+  }
+}
