@@ -1,0 +1,48 @@
+MODULAR STAR TREK WALL DISPLAY — REVISION 5
+Printable geometry prototype. Units mm; import at 100% scale.
+
+SYSTEM
+The ship arm and decorative base now mount separately on a shared square-tile system. The decorative base remains vertical, below and right of the ship, and carries none of the ship load. The original upright arm must be removed from the reused decorative base.
+Three tile types use the same edges and wall-fixing scheme:
+- tile_ship_arm.stl: reinforced central hub; bolts directly to B.
+- tile_plaque.stl: two vertical mounting rails for the decorative base, with five mounting heights.
+- tile_open_connector.stl: connects occupied tiles and creates clearance between displays.
+Each tile is 244 x 244 x 8 mm including protruding joints. Tile centres are 240 mm apart. This is a NEW system and is not compatible with the earlier hexagons.
+
+EDGE CONNECTIONS
+Two front-inserted dovetails on the right and top edges mate with sockets on the left and bottom edges of adjacent tiles. Keep all tiles in the same orientation. Lower one face-to-face aligned tile into the neighbour's joints perpendicular to the wall; do not force the wider dovetail sideways through its narrow mouth.
+Print tile_joint_test_male.stl and tile_joint_test_female.stl before full tiles. The samples are centred differently for printing: mate the actual tab and slot, not their overall bounding boxes. The nominal XY clearance is approximately 0.22 mm per edge. Check physical fit in the selected material.
+The joints align the grid. Each loaded tile has its own wall fixing pair; do not suspend the whole display by one tile's nails.
+
+NAILS OR SCREWS
+Every tile has TWO nail keyholes, with 8 mm entry circles, 3.5 mm necks and a 6 mm downward seating movement. Neck centres are (0,+96) and (0,-96), 192 mm apart. Nail heads must pass through the actual printed entries and be retained by the necks. The dimensions describe compatibility, not a nail load rating.
+Separate screw holes are at (0,+76) and (0,-76), 152 mm apart: 4.6 mm through holes with 9.5 mm front head recesses. Choose a fixing system appropriate to the actual wall and total load. Nail pullout/bending resistance has not been evaluated for this wall or long arm.
+Assemble and align an UNLOADED group before hanging it. With keyholes, the connected section must seat downward together by 6 mm; joined tiles cannot independently slide down in-plane. Wall screws through the separate holes avoid that installation movement. Fit wall hardware and check seating before adding arms, plaques or ships. To expand a keyhole-mounted section, take the unloaded section down if needed, connect additional tiles and refit; do not force a new tile's dovetails against fixed neighbours.
+
+EXAMPLE LAYOUT
+Ship tile centre: (0,0).
+Open connector tile centre: (0,-240).
+Plaque tile centre: (+240,-240).
+Use the plaque tile's bottom bolt row, Y=-40, for the illustrated lower position. The decorative base reference centre then lies 60 mm below that tile's centre, because its mounting holes are 20 mm above its reference centre.
+The three-tile frame occupies about 484 x 484 mm. The decorative base protrudes below its tile in the illustrated low position. This is intentional and must remain clear of any tile or object added there.
+This is an example, not a verified ship clearance layout. No ship hull mesh or actual width/thickness was supplied. Add open tiles or change plaque height to clear the real hull in both display orientations. Ship lengths up to 600 mm will generally require more spacing than one 240 mm tile pitch between ship centres.
+
+SHIP ARM
+B_dual_socket_arm_130mm.stl and both removable inserts are unchanged from v3. Bolt B directly to the ship tile using four M4 machine screws and the tile's captive M4 nuts, on the 56 x 56 mm square pattern. There is NO decorative plate or spacer between B and this tile.
+Install captive nuts from the tile rear before wall mounting. Select screw lengths for the actual 16 mm tile-plus-arm flange stack, any washers and the nut pockets, fully engaging the nuts without protruding into the wall. Previous longer screws intended to pass through the decorative base may no longer fit.
+The upward peg axis is 130 mm beyond the ship tile FRONT, approximately 138 mm from the wall with the 8 mm tile flush against it. This is the revised clearance reference now that the decorative plaque is separate; it is 11.4 mm closer to the wall than the earlier sandwich illustration. The end socket retains its 5-degree upward tilt.
+Use the top socket for level flight, with the nose sideways and belly parallel to the floor (assuming the hole is perpendicular to the belly). Use the end socket for the near-wall-parallel display. Both sockets accept the same square-stem insert. Support the ship, remove its cross-bolt, withdraw and reinsert in the other socket, select a 90-degree index, and refit the bolt. Do not reposition the joint while it is carrying the ship.
+Glue only the 7.8 mm diameter, 19 mm long round peg into the ship. Never glue the square stem into a socket. Follow the actual adhesive's compatibility and full-cure instructions. The second insert is a spare or for another ship. An M3 cross-bolt, washers and locking nut secure the active insert; nominal M3 x 40 mm is a starting length for the 28 mm top receiver or 24 mm end receiver, subject to actual hardware/hull clearance. Do not crush the printed socket by overtightening.
+
+DECORATIVE PLAQUE
+The plaque bolts to its own tile with two M4 screws, 80 mm apart horizontally. Five alternative matching pairs are provided at tile Y=-40,-20,0,+20,+40. Use ONE pair and load its two captive nuts before wall mounting.
+The selected drilling locations on the original source STL are X=93.912 and 173.912, Y=121.999. With the base oriented as in the preview, these are about 93.9 and 173.9 mm from its leftmost tip, and 122.0 mm above its lowest edge. Confirm against the physical print before drilling; these are coordinate references, not a self-locating jig.
+plaque_drilling_template.stl has two 2.5 mm pilot guides 80 mm apart. Align it to the checked location, drill pilots, then enlarge only the plaque holes to the required M4 clearance. A 10 mm diameter bearing area around each location is flat at 5.7 mm thickness in the supplied STL. These locations avoid the uneven 5.7/11.4 mm areas encountered in the earlier four-bolt sandwich design.
+Choose two screw lengths for the actual tile-plus-plaque thickness (about 13.7 mm at these holes), washers and captive nut engagement. Do not let screw ends project into the wall. The flat rear of the plaque bears against its tile's rails. Wall fixings may be covered after the plaque is installed, so fix the tile first and remove the plaque to access them later.
+No reprint of the existing 254 x 245 mm decorative base is required. Its trimmed appearance in the preview is illustrative; remove the old arm flush with the appropriate local decorative surface.
+
+PRINT AND VERIFY
+All new individual parts fit geometrically within the user's 250 x 250 mm XY limit. A 244 mm tile leaves only 3 mm at each side for brims or machine exclusion zones: inspect the slicer layout before printing. No strength-tested print orientation, material profile or G-code is supplied.
+Print the joint samples, socket test and one peg insert first. Check both 90-degree insert positions and bolt alignment. The round peg test coupons are 7.7, 7.8 and 7.9 mm; if a different diameter suits the actual ship hole, revise the complete insert rather than scaling the whole part.
+All individual STL meshes passed watertightness, winding, positive-volume and connected-solid checks. Tile mating was checked in both grid directions without unintended intersection. These are geometry checks, not physical fit or structural certification.
+The 600 g ship produces approximately 0.81 N m about the wall if its centre of gravity lies over the level-flight peg axis 138 mm out, before mount weight and handling. Actual centre of gravity, hull clearance, adhesive strength, print strength, creep and wall-fixing capacity remain unverified. Test the completed assembly over a padded surface before wall use.
