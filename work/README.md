@@ -1,5 +1,9 @@
-# Latest design scripts
+# Current supporting scripts
 
-Only the v29 scripts and shared renderer helper are retained on main. These saved scripts still reference earlier outputs and renderers. Retrieve those dependencies from the v28 or earlier Git tags before rerunning; they are not a standalone clean-checkout build. The saved outputs/v29 files are the authoritative print artifacts.
+Run from the repository root with Python, numpy, scipy, trimesh, manifold3d and matplotlib available.
 
-ZIP packaging may be performed locally; generated ZIPs are ignored by Git.
+- `build.py` regenerates the peg inserts against the current arm and geometry report in outputs; it does not rebuild the entire display system.
+- `render_pegs.py` renders the current inserts using the shared `render.py` helper.
+- `package.py` validates the insert interfaces, generates fit samples and creates an ignored local ZIP from current outputs. Assembly notes are maintained separately.
+
+These scripts operate on the current outputs directly. Historical complete design workflows remain in older Git commits and tags. No version numbers are used in current filenames or output-directory paths.

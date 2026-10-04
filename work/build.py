@@ -1,15 +1,13 @@
 import trimesh as t,numpy as np,json,shutil
 from pathlib import Path
-out=Path('outputs/v29');out.mkdir(exist_ok=True)
+out=Path('outputs');out.mkdir(exist_ok=True)
 def box(s,c):
  m=t.creation.box(s);m.apply_translation(c);return m
 def cyl(r,h,c):
  m=t.creation.cylinder(radius=r,height=h,sections=128);m.apply_translation(c);return m
 def union(ms):return t.boolean.union(ms,engine='manifold')
 def diff(m,cs):return t.boolean.difference([m]+cs,engine='manifold')
-for p in Path('outputs/v28').glob('*.stl'):
- if p.stem not in ['peg_insert_8mm','peg_insert_6mm']:shutil.copy2(p,out/p.name)
-body=t.load(out/'hex_ship_integrated_rounded_arm.stl');checks={};report=json.load(open('outputs/v28/geometry_checks.json'))
+body=t.load(out/'hex_ship_integrated_rounded_arm.stl');checks={};report=json.load(open('outputs/geometry_checks.json'))
 for diam,length,height in [(8,19,3),(6,10,2)]:
  z0=12.05;shaft_start=z0+height;r=diam/2;spread=5.15-r
  # Quarter-ellipse profile, tangent to horizontal stem shoulder and vertical shaft.

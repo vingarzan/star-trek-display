@@ -1,6 +1,6 @@
 from pathlib import Path
 import trimesh as t,numpy as np,json,zipfile
-out=Path('outputs/v29');r=json.load(open(out/'geometry_checks.json'))
+out=Path('outputs');r=json.load(open(out/'geometry_checks.json'))
 def box(s,c):
  m=t.creation.box(s);m.apply_translation(c);return m
 for width in [10.2,10.3,10.4]:
@@ -18,17 +18,9 @@ for label,T in [('upward',U),('outward',F)]:
  audit[label]={'bottom_gap_at_bolt_alignment_mm':float(-floor),'M3_bolt_path_clear':True}
  for d in [6,8]:assert abs(t.boolean.intersection([t.load(out/f'peg_insert_{d}mm.stl'),h],engine='manifold').volume)<.001
 r['v29_socket_audit']=audit;(out/'geometry_checks.json').write_text(json.dumps(r,indent=2))
-s=Path('outputs/v28/Assembly_notes.txt').read_text().replace('REVISION 28','REVISION 29');a=s.index('PEG INSERTS');b=s.index('\n\nORIGINAL FRAME',a)
-s=s[:a]+'''PEG INSERTS — REVISION 29
-Both inserts have identical 10.3 x 10.3 x 12.05 mm square stems, with a 0.4 mm lead-in chamfer. This changes side clearance from 0.2 mm to 0.05 mm per face in the existing 10.4 mm sockets. The lower stem is extended 0.45 mm, reducing nominal bottom clearance from 0.6 mm to 0.15 mm at the bolt-aligned position.
-The cross-bores are retained, 3.4 mm diameter, 6.25 mm from the new bottom. Their installed positions still match the arm. A pin/M3 cross-bolt remains optional hardware for positive retention.
-Pin-free retention relies ONLY on physical friction. Nominal CAD clearance cannot guarantee grip across printers/materials. There is no axial stop: without a bolt, an insert can slide the remaining 0.15 mm to the socket floor. Do not claim a fixed 0.15 mm floor gap when fully pushed to the bottom. Bottoming this amount remains within the nominal M3/3.4 mm hole allowance, but verify physically.
-Print fit_test_arm_stem_10.2mm, 10.3mm and 10.4mm to choose a fit that can be removed by hand but does not slip under the actual ship load. Production inserts use 10.3 mm. Do not force a tight sample. If the production insert does not hold securely, use the retained cross-bolt until the stem fit is adjusted. Support the ship whenever removing it.
-The 8 mm round shaft remains 19 mm long with a 3 mm curved transition. The 6 mm round shaft remains 10 mm long with a 2 mm rounded transition. Their bolt-aligned installed shaft positions are unchanged from v28. Glue only the round shaft into the ship.
-''' +s[b:]
-s+='\nREVISION 29 VALIDATION\nIdentical lower stems verified by solid comparison. Both socket positions have 0.15 mm nominal floor clearance at bolt alignment and clear M3 bolt paths. The inserted solids clear the arm. Pin-free grip and load capacity have not been physically tested. All other models remain from v28.\n';(out/'Assembly_notes.txt').write_text(s)
 for p in out.glob('*.stl'):
  m=t.load(p);assert m.is_volume and len(m.split())==1,p
-with zipfile.ZipFile('outputs/Star_Trek_removable_snug_pegs_v29.zip','w',zipfile.ZIP_DEFLATED) as z:
- for p in sorted(out.iterdir()):z.write(p,'v29/'+p.name)
+with zipfile.ZipFile('outputs/Star_Trek_display.zip','w',zipfile.ZIP_DEFLATED) as z:
+ for p in sorted(out.iterdir()):
+  if p.is_file() and p.suffix!='.zip':z.write(p,p.name)
 print(audit)
