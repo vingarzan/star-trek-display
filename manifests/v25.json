@@ -1,0 +1,32 @@
+{
+  "version": "v25",
+  "title": "Disk-free 8 mm and 6 mm inserts; sort fit tests",
+  "imported_from_saved_artifacts": true,
+  "files": {
+    "outputs/v25/Assembly_notes.txt": "7b787f9f33e3c1c2d0a2f10beb997ddb9c73380ddfb378e67ee4cd2a54831c74",
+    "outputs/v25/fit_test_nail_cover.stl": "10ba06933dd64f0060e28719e51b8be0fba10159efee3e072fa0266968251df6",
+    "outputs/v25/fit_test_original_joint_bottom.stl": "4410f20b223ff928c7db404bf4006f9c857ecbc8288782a6c109306cf213d468",
+    "outputs/v25/fit_test_original_joint_top.stl": "7afb984749baf341646b0df2faeef294e3022e7eb84939e3db1ce405aeaabefe",
+    "outputs/v25/fit_test_peg_6.0mm.stl": "59a98d696a9f61a689fbbf3b0f63a64ebb981f22a0666be6bf74c06ceb5bea15",
+    "outputs/v25/fit_test_peg_7.7mm.stl": "06f006b8ec179600dc88c89d471ff6fc1f5a8d69bfba554b85965083686be757",
+    "outputs/v25/fit_test_peg_7.8mm.stl": "d094babc5f85e53689ce6b4afddae5ce397dcf07e1c3ea919aee1b2f2b5c6d96",
+    "outputs/v25/fit_test_peg_7.9mm.stl": "209533e144d1fb363ca4bcf3287394bbcb118755dd6e26be091dbd1be1a43326",
+    "outputs/v25/fit_test_peg_8.0mm.stl": "f3d5d28d382bc844921a1066065771ccb85becd114a11165c6682fccfd8735e2",
+    "outputs/v25/fit_test_rim_clip.stl": "5791178027b33f397520ed055cef9f2f9a0a7466e1aac5eb267a2e3782cc7bc6",
+    "outputs/v25/fit_test_socket.stl": "681148ca03b0596cf4010f718931f0b66cee5efa58f98e3cb6c57a4c5ad6783e",
+    "outputs/v25/geometry_checks.json": "6d6155394889c08bec838c3b3569ca0d4601a9a6a58a759425ce6b4b3e6bd135",
+    "outputs/v25/hex_open_original_size.stl": "abb26a855aa343f0d2a15ad5c788a8fc15a3d1f42084b949bdf77e8d5755136c",
+    "outputs/v25/hex_plaque_flush_clips.stl": "e5b56a9b64bdb1d17283ab646dcbca17dd4817203ce81133c7d7276b0f7836c0",
+    "outputs/v25/hex_ship_integrated_rounded_arm.stl": "9ebc4908530787f25ff11cf1d3e1ed7d7fbbfdd7cc5a7410ba5c085d3507f44c",
+    "outputs/v25/nail_cover_cap.stl": "4965e35396ab12024bb07713cc1610e7a06acb5c2acdee05f099c813a6ebe1ac",
+    "outputs/v25/peg_insert_6mm.stl": "d4b7573e0503bfc3adea18dd02caae5f306e6660695b0171bc00f674ec90790c",
+    "outputs/v25/peg_insert_8mm.stl": "e50a99118b32f7ca6a018d49b059a06792a33d5ce42784de14188cff52de24b4",
+    "outputs/v25/peg_inserts_preview.png": "040b6ca9e5d99c5f6dd3ab17c1039f0d41b9264438b132ef5fadd0ddcd9e866c",
+    "outputs/v25/plaque_upper_right_latch.stl": "be22fa6220fb035d57537558c2044922945080e158238d88b758a54f834044a3",
+    "outputs/Star_Trek_disk_free_pegs_v25.zip": "bbe9cdf9e5eb8984e6dda47759115befdd485775a1489cbbfe79fdcea3cb5360"
+  },
+  "scripts": [
+    "render_v25.py",
+    "build_v25.py"
+  ]
+}
