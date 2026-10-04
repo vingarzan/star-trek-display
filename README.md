@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v16 — Extended base edges and outward chamfer**.
+Current version: **v17 — Rounded arm-root reinforcement**.
 
-- [Print files and previews](outputs/v16/)
+- [Print files and previews](outputs/v17/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v16.json)
+- [Artifact checksums](manifests/v17.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 
