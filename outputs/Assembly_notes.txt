@@ -1,4 +1,4 @@
-STAR TREK WALL DISPLAY — REVISION 32
+STAR TREK WALL DISPLAY — REVISION 33
 Units mm. Print at 100% scale. Physically untested prototypes.
 
 INTEGRATED SHIP MOUNT
@@ -60,7 +60,7 @@ EMPTY HEXAGON
 hex_empty_original_size.stl: original 210 x 185.865 x 8 mm outer border and connectors, with no nail tab, arm or internal supports. Print flat at 100% scale. The existing hex_open_original_size.stl retains its nail tab.
 
 CORNER-BRACED ARM ALTERNATIVE
-hex_ship_corner_braced_arm.stl is an additional option, with three 12 x 8 mm braces along opposite-corner axes (0, 60 and 120 degrees). The upper vertical connection to the nail mount remains. The central base, arm, sockets, root fillets, outer connectors and nail mount retain their current geometry. Use the same pegs and nail cap. The original side-braced arm remains available. Geometry checks establish a single watertight solid, not physical load capacity.
+hex_ship_corner_braced_arm.stl has three 12 x 8 mm braces along opposite-corner axes (0, 60 and 120 degrees). Its central hexagon is centred at X=0, Y=0 and measures 96 x 83.138 x 8 mm. This size supports the full lower rounded arm joint. The vertical connection to the nail mount is removed; the nail tab matches hex_open_original_size.stl exactly. Use the same peg inserts. The nail_cover_cap.stl is for the side-braced mount's recess and is not specified for this restored original nail tab. The side-braced arm remains unchanged. Geometry checks establish a single watertight solid, not physical load capacity.
 
 FILLED TITLE-HOLDER NOTCH
 All six hexagon variants have the original upper-right inner-edge title recess filled. Approximately 132.7 mm3 of material is added to each frame. External interlocking slots, overall dimensions, mounting features, clips and sockets are preserved. This restores solid material locally; increased load capacity has not been physically tested.

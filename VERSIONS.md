@@ -42,3 +42,5 @@ v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks b
 | [v31](https://github.com/vingarzan/star-trek-display/tree/v31) | Add parallel integrated arm variant with corner-to-corner braces | [files](https://github.com/vingarzan/star-trek-display/tree/v31/outputs/) |
 
 | [v32](https://github.com/vingarzan/star-trek-display/tree/v32) | Fill internal title-holder notch on all six hexagon variants | [files](https://github.com/vingarzan/star-trek-display/tree/v32/outputs/) |
+
+| [v33](https://github.com/vingarzan/star-trek-display/tree/v33) | Centre and resize corner-braced base, remove vertical nail brace, restore original nail tab | [files](https://github.com/vingarzan/star-trek-display/tree/v33/outputs/) |
