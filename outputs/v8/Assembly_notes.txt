@@ -1,0 +1,70 @@
+STAR TREK DISPLAY — REVISION 8
+Original-size hexagons + no-drill clip cradle for the upright plaque.
+Units mm. Print at 100% scale. Physically untested prototype.
+
+ORIGINAL FIGHTER-DISPLAY COMPATIBILITY
+The original frame component was extracted directly from obj_1_Inclined display.stl, translated to a local origin, and retained at its ORIGINAL scale. New reinforcement is confined to an inner hexagonal region. The original outer frame band and edge connector geometry are preserved, rather than redrawn or enlarged.
+The ship and open frames measure 210 x 185.865 x 8 mm. The plaque carrier preserves that original hexagon and its Z=0..8 mm connection slab, but adds forward-reaching clip arms: its overall print footprint is 210 x 209.933 mm and height is 21.55 mm. They are intended to mesh with the user's existing original-size fighter-plane hexagons, assuming those were also printed at 100% scale. Physical printer/material tolerances still need checking.
+Numerical comparison found less than 0.00002 cubic mm difference in the protected outer band. Fit with the source frame was checked above, upper-right and lower-right, with only sub-0.001 cubic mm numerical residual overlap.
+Print original_joint_test_top.stl and original_joint_test_bottom.stl first and check their original-size connectors against existing prints. They are cropped reference edge samples, not complete mounting frames.
+
+FILES
+hex_ship_original_size.stl: reinforced hub for direct mounting of the dual-socket ship arm.
+hex_plaque_clip_cradle.stl: original-size frame with two integral lower rim cradles and an upper-right keeper boss.
+plaque_turn_button.stl: separate 12 x 38 x 3 mm rotating keeper, fixed only to the printed holder.
+rim_clip_fit_test.stl: small 6.3 mm slot sample for the original disc rim.
+hex_open_original_size.stl: connecting frame with a fixing spine; no aircraft or ship peg. Use as many as needed for spacing.
+B_dual_socket_arm_130mm.stl: unchanged long braced arm, two sockets, 80 x 80 x 158.99 mm.
+peg_insert_1.stl / peg_insert_2.stl: identical removable inserts, 7.8 mm round peg projecting 19 mm, square stem for 90-degree indexing.
+socket_fit_test.stl and peg_fit_7.7mm / 7.8mm / 7.9mm.stl: fit samples.
+No plaque drilling template or drilled-plaque mount is included in this revision.
+
+REVISION 8 POSITION CHANGE
+The decorative plaque is raised 22 mm from revision 7, and the lower clip extensions are shortened. The lowest edges of both clip bodies are about 0.524 mm ABOVE the original lower hexagon line (Y=-90.933 mm), so they no longer extend below that line. The upper-right keeper and its supporting arm move up by the same 22 mm. The ship mount, original connector geometry, rim slot, keeper tab and fitting procedure are unchanged. Only the plaque carrier needs replacing if revision 7 was already printed.
+The plaque reference offset is now Y=+2 mm relative to the hex centre. Its emblem tips still extend outside the hexagon; check neighbouring objects and the 10 mm lift/removal space. The upper keeper boss extends above the original frame, at the front of its connection plane.
+
+PLAQUE CLIPS — NO DRILLING OR GLUE
+The plaque still has its single point up and two points down, at the revision-6 orientation (125.044 degrees counterclockwise from the original source). Its old upright stand arm must be removed. The plaque stays vertical on its separate hexagon below/right of the ship, and carries no ship load.
+Two lower cradles contact the plain disc rim near X=-35 and +35 mm. The source rim is 5.7 mm thick in these contact regions. The slot is 6.3 mm deep, giving 0.6 mm nominal clearance in front of the rim. The rim rests on lower ledges and is retained by front lips. No screws, holes, adhesive or snap-fit flexing are needed in the plaque itself.
+The upper-right turn-button swings over a plain portion of the disc to keep it from tipping forward. One M3 screw, thin washer and standard M3 nut hold the button to the printed carrier. A nominal M3 x 14 mm screw with an approximately 0.5 mm washer is a starting stack: verify full nut engagement, free rotation, and no unwanted rear protrusion against adjacent components. The rear-loaded hex nut pocket is about 5.8 mm across flats and 2.7 mm effective depth; it is for a standard nut, not a tall locking nut. Set light friction at the screw so the button stays where placed, and check it remains secure after operation. Do not overtighten and immobilize or crush the tab.
+Load the M3 nut from the back of the keeper boss before installing the carrier on the wall. Print the button flat as supplied; its pivot hole is near one end. Attach that end to the upper-right boss, with the long end pointing down to retain the rim. The open position turns the long end upward, approximately 180 degrees.
+
+INSERT / REMOVE
+1. Open the upper turn-button.
+2. Hold the upright plaque about 10 mm above its final seated position.
+3. Move it toward the wall until its back reaches the cradle's rear support plane.
+4. Lower it about 10 mm into both ledges. Make sure the disc is behind both front lips and resting evenly, not on a protruding emblem corner.
+5. Turn the keeper downward over the rim.
+To remove, support the plaque, open the keeper, lift it about 10 mm, then move it forward. Do not force the rigid lower clips to flex.
+The nominal plaque back is Z=12.25 mm from the frame's rear wall plane, 4.25 mm farther forward than revision 6. The model includes a 0.15 mm vertical seating allowance; actual printed contact may vary slightly.
+
+FIT FIRST
+Print rim_clip_fit_test.stl in the intended material and check it against the plain lower disc edge at both contact regions. It checks the rim gap, not the whole cradle or keeper. Do not force it over raised emblem details or text. If the disc is too tight, or noticeably loose/able to turn when seated, adjust the holder tolerance before printing the full carrier. No physical fit has been verified.
+The lower clip front lips and forward-reaching arms have overhangs: inspect support requirements in your slicer and remove any supports cleanly from the rim pockets. Keep support scars and first-layer expansion from obstructing the original frame connectors. No verified slicer profile is supplied.
+The carrier's extensions sit forward of the original connection slab, so the source edge geometry is unchanged. The plaque and clips still overhang the original frame: leave neighbouring display contents and removal clearance free.
+
+EXAMPLE GRID LAYOUT
+The original hex geometry uses 181.86534 mm vertical centre spacing. Diagonal neighbours are displaced 157.5 mm horizontally and 90.93267 mm vertically.
+Example from the preview:
+- ship hex centre: (0,0)
+- connecting hex centre: (0,-181.86534)
+- plaque hex centre: (157.5,-272.79801)
+- grey original fighter-display reference: (-157.5,90.93267)
+The grey reference is shown for compatibility context and is not included as a new printable file. Add more empty/connecting hexagons if the actual ship, plaque or existing aircraft requires more separation. No ship hull file was provided, so real-object clearance remains unverified.
+
+WALL FIXINGS
+The ORIGINAL EDGE CONNECTIONS are retained; the new interior fixing holes differ from the original design.
+Two added nail keyholes have neck centres at (-15,+65) and (+15,-65). Each has an 8 mm head-entry circle, 3.5 mm neck, and 6 mm downward seating motion. They are staggered, not on one vertical line. Verify that actual nail heads pass through the entries and are retained by the necks.
+Separate screw holes are at (-15,+49) and (+15,-49), with 4.6 mm through holes and 9.5 mm front head recesses.
+Choose fixings suitable for the wall and load. Each loaded hexagon should be independently fixed; original edge connectors are not a verified load path for the 600 g ship. Nail compatibility dimensions do not establish holding capacity in the user's wall.
+Assemble and fit unloaded sections first. Connected frames may need to be hung/lowered together when using keyholes; do not force an individual connected frame to slide against its neighbours. Fix the plaque carrier to the wall before seating the disc, which can cover access to its fixings.
+
+SHIP ARM AND INSERTS
+Bolt B directly to the ship hex using four M4 screws and captive nuts on the unchanged 56 x 56 mm square pattern. There is NO decorative plate between B and the ship hex. Select screw length for the actual 16 mm frame/flange stack, any washers and nut engagement, without protruding against the wall. Earlier screws for the thicker sandwich may be too long.
+The upward peg axis is 130 mm beyond the ship hex FRONT, approximately 138 mm from the wall when the 8 mm frame is flush. This is the current clearance reference after separating the plaque. It is not 130 mm beyond the separate plaque's surface.
+Use the top socket for level flight, with nose sideways along the wall and belly parallel to the floor, assuming the hole is perpendicular to the belly. The end socket points outward with 5 degrees of upward tilt for the other display plane.
+Glue ONLY the round peg into the ship, following adhesive compatibility and full cure requirements. Leave the square stem removable. Support the ship, remove the M3 cross-bolt, withdraw the insert, move it to the desired socket, choose a 90-degree index and refit the bolt. Do not reposition under load. A cross-bolt, washers and locking nut retain the insert; check nominal M3 x 40 mm against actual hardware, printed dimensions and hull access, and do not crush the socket.
+
+VERIFICATION
+All delivered meshes passed watertightness, winding, positive-volume and connected-solid checks. They fit within the user's 250 x 250 mm XY print envelope. The original connection slab perimeter comparison is recorded in geometry_checks.json. In addition, the seated plaque, lift positions from 0 to 12 mm, and the approach at 10 mm lift were checked at sampled positions for unintended interference. The keeper rotation was checked at 30-degree steps. These discrete geometric checks do not replace a physical fit test.
+No physical printing, slicer profile, strength/creep test, adhesive test or wall-fixing test has been completed. A 600 g ship with its centre of gravity over the top peg would produce about 0.81 N m about the wall, before arm weight and handling loads. Test the complete installation over a padded surface before use. Confirm fit samples first; do not globally rescale the parts to fix one mating tolerance.

@@ -1,0 +1,10 @@
+exec(open('work/render.py').read().split("draw(fig.add_subplot(131")[0].replace("A=t.load('outputs/A_hex_carrier.stl');B=t.load('outputs/B_arm_5deg_up.stl');scene=t.load('work/assembly.glb')", ""))
+plt.close(fig);fig=plt.figure(figsize=(13,9),facecolor='#f3f5f7')
+for index,rev,title in [(1,7,'Previous position'),(2,8,'Raised 22 mm · clips at the bottom hex edge')]:
+ h=t.load(f'outputs/v{rev}/hex_plaque_clip_cradle.stl');p=t.load(f'work/v{rev}_plaque.ply');k=t.load(f'work/v{rev}_keeper_closed.stl')
+ ax=fig.add_subplot(1,2,index,projection='3d');draw(ax,[h,p,k],['#319aa1','#b9c7d1','#e6ac3e'],title,[(-140,140),(-165,175),(0,65)],90,-90)
+ ax.plot([-55,55],[-90.93267,-90.93267],[28,28],color='#d26643',ls='--',lw=1.4)
+fig.suptitle('Revision 8 — plaque raised, lower clip extensions shortened',fontsize=20,y=.96)
+fig.text(.5,.075,'Dashed line: original lower hexagon edge. New clip bottoms sit 0.52 mm above it.',ha='center',fontsize=12,color='#385563')
+fig.text(.5,.037,'No drilling or glue on the plaque · original mating edges retained · upper turn-button repositioned to match',ha='center',fontsize=11,color='#385563')
+plt.subplots_adjust(left=.01,right=.99,bottom=.12,top=.85,wspace=.04);plt.savefig('outputs/v8/raised_plaque_preview.png',dpi=155,facecolor=fig.get_facecolor())

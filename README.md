@@ -2,11 +2,11 @@
 
 Interlocking wall-display frames, ship-support arms, decorative plaque holders and removable peg inserts for 3D printing.
 
-Current version: **v7 — No-drill decorative plaque clips**.
+Current version: **v8 — Raise plaque and refine clip placement**.
 
-- [Print files and previews](outputs/v7/)
+- [Print files and previews](outputs/v8/)
 - [Version history](VERSIONS.md)
-- [Artifact checksums](manifests/v7.json)
+- [Artifact checksums](manifests/v8.json)
 
 All dimensions are millimetres. Print at 100% scale. These are evolving prototypes: geometric validation is not a load rating or a substitute for physical fit and strength testing.
 
