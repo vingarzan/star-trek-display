@@ -1,4 +1,4 @@
-STAR TREK WALL DISPLAY — REVISION 41
+STAR TREK WALL DISPLAY — REVISION 42
 Units mm. Print at 100% scale. Physically untested prototypes.
 
 INTEGRATED SHIP MOUNT
@@ -84,3 +84,7 @@ The central hexagon was reduced from 52 to 38 mm wide in revision 38, saving ano
 GALAXY RETAINER HOLE UPDATE
 The Galaxy holder pilot is 2.35 mm and its retainer clearance hole is 3.1 mm. These split the difference between v39's 2.6/3.4 mm and the suggested 2.1/2.8 mm sizes, following the user's successful M2.5 fit in the larger holder. This new fit remains physically untested. The larger plaque holders are unchanged.
 The 5 mm retainer boss, upper-right position, plate gap and lower clips remain as in v39. Use the matching updated Galaxy holder and retainer. An M2.5 x 12 mm screw has approximately 4.7 mm engagement at nominal seating.
+
+5 MM PEG INSERT
+peg_insert_5mm.stl has a nominal 5 mm diameter and 8 mm straight shaft, leaving 0.5 mm at the bottom of the specified 8.5 mm hole when seated at the shaft/shoulder junction. The rounded transition is 2 mm high. The 10.3 x 10.3 x 12.05 mm removable base, chamfer and optional retaining-pin holes match the other inserts. Overall height is 22.05 mm.
+Print fit_test_peg_5.0mm.stl first to check the actual hole fit. The nominal diameter is not reduced for printer-specific clearance. Both socket orientations on the dual-socket mounts and the upward socket on the light mount pass geometry interference checks. Physical fit and load capacity remain untested.

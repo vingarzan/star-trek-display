@@ -1,6 +1,6 @@
 # Star Trek wall display
 
-Current design: **v41 — flush, snug nail cover**.
+Current design: **v42 — 5 mm peg for an 8.5 mm-deep hole**.
 
 - [Latest print files, notes and previews](outputs/)
 - [Geometry checks](outputs/geometry_checks.json)
@@ -10,6 +10,8 @@ Current design: **v41 — flush, snug nail cover**.
 Only the latest version files are kept on main. ZIP files are not tracked. Earlier designs remain accessible through Git commits and version tags.
 
 All eight hexagon variants now have the original inner-edge title-holder recess filled with solid material. External interlocking connectors retain their geometry. See the [notch detail](outputs/filled_title_notch_preview.png). Run `work/fill_title_notches.py` after regenerating any older frame geometry.
+
+A [5 mm peg insert](outputs/peg_insert_5mm.stl) is included for the 8.5 mm-deep ship hole. Its straight shaft is 8 mm long, with a 2 mm rounded shoulder and the same removable base as the existing inserts. Try the [5 mm diameter fit test](outputs/fit_test_peg_5.0mm.stl) first.
 
 The [nail cover](outputs/nail_cover_cap.stl) now sits flush in the side-braced mount’s 3 mm recess. Its skirt is wider and its slotted grip bumps have 0.15 mm interference per side. Use a head no larger than 9 mm diameter and 2 mm above the recess floor. Print [fit_test_nail_cover.stl](outputs/fit_test_nail_cover.stl) to check the fit; physical grip remains untested. See the [preview](outputs/nail_cover_preview.png).
 

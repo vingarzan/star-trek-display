@@ -581,5 +581,37 @@
       "unsupported_footprint_mm3": 0.0,
       "pin_bore_obstruction_mm3": 0.0
     }
+  },
+  "peg_insert_5mm": {
+    "dimensions_mm": [
+      10.300000190734863,
+      10.300000190734863,
+      22.049999237060547
+    ],
+    "volume_cm3": 1.332831388767115,
+    "watertight": true,
+    "components": 1,
+    "export_reload_verified": true,
+    "round_shaft_length_mm": 8.0,
+    "transition_height_mm": 2,
+    "transition_profile": "quarter ellipse, revolved",
+    "radial_spread_mm": 2.6500000000000004
+  },
+  "peg_5mm_fit_checks": {
+    "5mm_upward_overlap_mm3": 0.0,
+    "5mm_outward_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_arm_upward_lift_0_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_arm_upward_lift_0.15_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_arm_upward_lift_1_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_arm_upward_lift_4_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_arm_upward_lift_8_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_arm_upward_lift_13_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_arm_outward_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_light_arm_upward_lift_0_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_light_arm_upward_lift_0.15_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_light_arm_upward_lift_1_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_light_arm_upward_lift_4_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_light_arm_upward_lift_8_overlap_mm3": 0.0,
+    "hex_ship_corner_braced_light_arm_upward_lift_13_overlap_mm3": 0.0
   }
 }

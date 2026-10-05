@@ -60,3 +60,5 @@ v4 contains the saved plaque-hanger experiment; v9 has saved meshes and checks b
 | [v40](https://github.com/vingarzan/star-trek-display/tree/v40) | Set Galaxy pilot to 2.35 mm and retainer clearance to 3.1 mm for user-selected intermediate fit | [files](https://github.com/vingarzan/star-trek-display/tree/v40/outputs/) |
 
 | [v41](https://github.com/vingarzan/star-trek-display/tree/v41) | Make nail cover flush at 3 mm total height, widen skirt and increase grip interference | [files](https://github.com/vingarzan/star-trek-display/tree/v41/outputs/) |
+
+| [v42](https://github.com/vingarzan/star-trek-display/tree/v42) | Add 5 mm peg with 8 mm shaft for an 8.5 mm-deep hole, plus diameter fit test | [files](https://github.com/vingarzan/star-trek-display/tree/v42/outputs/) |
